@@ -3,23 +3,175 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    #t_3_1.pb-5.h2 tema 3.1
-    .pb-5(v-for="item of 15")
+    .titulo-principal
+      .titulo-principal__numero
+        .h3 1
+      .h3 Características de los productos químicos
 
-    #t_3_2.pb-5.h2 tema 3.2
-    .pb-5(v-for="item of 15")
+    figure.mb-4
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)      
 
-    #t_3_3.pb-5.h2 tema 3.3
-    .pb-5(v-for="item of 15")
+    p.mb-4 Bienvenido al curso Aplicación del Sistema Globalmente Armonizado (SGA) en el manejo de productos químicos. Este curso tiene como propósito brindar los conceptos básicos y fundamentales para la comprensión del manejo de productos químicos de acuerdo con los lineamientos de SGA.
+ 
+    p.mb-5 Al finalizar el curso se estará en capacidad de tomar decisiones sobre el manejo seguro de los productos químicos basados en la adecuada interpretación de la información que ofrece el Sistema Globalmente Armonizado. Adicionalmente, (SGA) se refuerzan muchos conceptos que permiten hacer una lectura eficiente de las Hojas de Datos de Seguridad (HDS), lo permitirá tomar las medidas de prevención y de protección que sean necesarias.
 
-    #t_3_4.pb-5.h2 tema 3.4
-    .pb-5(v-for="item of 15")
+    #t_1_1.titulo-segundo
+      .h4 1.1 Definición de productos químicos
 
-    #t_3_5.pb-5.h2 tema 3.5
-    .pb-5(v-for="item of 15")
+    p.mb-4 Para iniciar, se muestran cuatro (4) figuras que se deben observar cuidadosamente y responder la siguiente pregunta:
 
-    #t_3_6.pb-5.h2 tema 3.6
-    .pb-5(v-for="item of 15")
+    SlyderB.mb-4(:datos="datosSlyder")
+
+    p.mb-4 A continuación, se presentan definiciones y conceptos que permitirán tener más claridad sobre este tema.
+
+    p.mb-4 
+      strong Una definición básica de producto químico es:
+
+    p.mb-4 Toda materia viva o inanimada está constituida por sustancias formadas por diferentes combinaciones de más de 100 elementos que se encuentran en el mundo, tales como los dos principales componentes del aire que se respira: nitrógeno (~80 %) y oxígeno (~20 %). Dicho de manera simple, un producto químico puede ser o un elemento o un compuesto formado por la combinación de elementos.
+
+    p.mb-4 En los productos químicos se encuentran:
+    br
+    .row
+      .col-lg-2
+      .col-lg-10
+        .tarjeta-Avatar-b.mb-5
+          img(src='@/assets/curso/tema1/img05.svg' alt='img05')
+          .tarjeta.color-primario.p-4
+            .h4 Los orgánicos
+            p Los cuales contienen carbono. Aunque se encuentran presentes por lo general en organismos vivos (por ejemplo, DNA, hormonas, proteínas, grasas), la industria ha producido cientos de miles de compuestos orgánicos sintéticos (por ejemplo, el insecticida DDT, el polímero cloruro de polivinilo o PVC).
+    .row
+      .col-lg-2
+      .col-lg-10
+        .tarjeta-Avatar-b.mb-5
+          img(src='@/assets/curso/tema1/img06.svg' alt='img05')
+          .tarjeta.color-primario.p-4
+            .h4 Los inorgánicos
+            p Los cuales no contienen carbono. Existen miles de productos químicos naturales, sintéticos (por ejemplo, bórax, cloro, ácido sulfúrico) y compuestos metálicos (por ejemplo, cloruro de sodio, más conocido como sal de mesa).
+    .row.mb-4
+      .col-lg-2
+      .col-lg-10
+        .tarjeta-Avatar-b.mb-5
+          img(src='@/assets/curso/tema1/img07.svg' alt='img05')
+          .tarjeta.color-primario.p-4
+            .h4 Los compuestos organometálicos 
+            p Son los que contienen tanto metales como carbono (por ejemplo, el tetraetilo de plomo se utilizó ampliamente como mejorador de octano en la gasolina para motores) (Pnuma, 2013). 
+    
+    p.mb-4 Esto significa que todo lo que está y rodea la Tierra, materialmente, se clasifica como producto químico, en virtud de su composición. 
+
+    p.mb-4 Al observar los objetos que se encuentran alrededor, se pueden identificar las sustancias químicas que los componen. En algunos casos no se conocen los nombres científicos de los productos químicos que constituyen cada uno de esos objetos, pero aun así se identifican grandes grupos, por ejemplo, plásticos, comestibles, medicamentos, varios tipos telas, madera, aire y muchos más.
+
+    p.mb-5 Son diferentes unos de otros en su apariencia física, pero también son diferentes en su forma de presentación, en su utilidad e incluso en el daño que puedan ocasionar.
+
+    hr
+
+    #t_1_2.titulo-segundo
+      .h4 1.2  Estado físico
+
+    p Cuando se habla de diferencias en la presentación de un objeto o producto, en realidad se está refiriendo al estado de la materia. 
+    p.mb-4 Los principales estados de la materia son:  
+
+    .row.mb-4
+      .col-lg-2        
+      .col-lg-2
+        figure.mb-5
+          img(src='@/assets/curso/tema1/img08.svg', alt='Solido')          
+      .col-lg-1
+      .col-lg-2
+        figure.mb-5
+          img(src='@/assets/curso/tema1/img09.svg', alt='Liquido')    
+      .col-lg-1
+      .col-lg-2
+        figure.mb-5
+          img(src='@/assets/curso/tema1/img10.svg', alt='Gaseoso')    
+      .col-lg-2
+
+    p.mb-4 El estado de la materia se relaciona con la proximidad que tienen las partículas que componen un producto químico entre sí. Esa proximidad se facilita con las fuerzas de cohesión entre las partículas, con su densidad y su respuesta a la fuerza de gravedad.
+
+    p A continuación, se analizará cada uno de estos estados:
+   
+    TabsB.color-acento-contenido.mb-4
+      .py-4.py-md-5(titulo="Sólido" :icono="require('@/assets/curso/tema1/img12.svg')")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            .h4 Estado sólido
+            p Se refiere a una estructura física muy bien definida. Esto ocurre debido a las fuerzas de cohesión entre las partículas responsables de mantener estables la forma y el volumen del sólido, y de otorgarle cierto margen de dureza y de resistencia. Lo anterior quiere decir que los productos sólidos mantienen su forma independientemente de la forma del contenedor o del espacio en el que se encuentren. Algunos ejemplos de productos sólidos son las rocas, la madera, las telas, el papel y el polvo (Raffino, 2020).
+          .col-md-6
+            figure
+              img(src='@/assets/curso/tema1/img11.svg', alt='Sólido')              
+
+      .py-4.py-md-5(titulo="Líquido" :icono="require('@/assets/curso/tema1/img13.svg')")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            .h4 Estado líquido
+            p Se refiere a las partículas que están más separadas que las de un compuesto sólido, pero más juntas que las de un compuesto gaseoso. Por esta razón los compuestos sólidos son rígidos y los gases son dispersos.
+            br
+            p Los productos líquidos se depositan en el fondo del contenedor que los retenga y adoptan la forma de ese contenedor desde abajo hacia arriba. 
+            br
+            p El ejemplo más usado para los líquidos es el agua, pero también se puede referir a otros como la gasolina, el aceite lubricante e, incluso, a alimentos como los jugos.
+          .col-md-6
+            figure
+              img(src='@/assets/curso/tema1/img16.svg', alt='Líquido')              
+
+      .py-4.py-md-5(titulo="Gaseoso" :icono="require('@/assets/curso/tema1/img14.svg')")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            .h4 Estado gaseoso
+            p Se refiere a los productos químicos que se caracterizan por tener sus partículas constitutivas poco unidas entre sí, o sea, expandidas a lo largo del contenedor donde se encuentren, hasta ocupar el máximo espacio disponible.
+            br
+            p Las propiedades mencionadas anteriormente, se deben a que las partículas que componen a los gases presentan entre sí una fuerza de atracción muy leve, y por esta razón no tienen forma ni ocupan un volumen definido en el espacio. Por otra parte, la densidad de los gases es mucho menor que la de los sólidos y los líquidos, y tienen, además, muy poca respuesta a la gravedad.
+            br
+            p Debido a la poca interacción entre las partículas, los gases, se encuentran suspendidos con muy poca influencia de la gravedad (se puede decir que “flotan”). 
+            br
+            p Además, a pesar de su cohesión casi nula, los gases presentan una enorme capacidad para ser comprimidos, lo que a menudo se lleva a cabo durante su tratamiento industrial para el transporte.
+            br
+            p Uno de los ejemplos más utilizados es el mismo aire, pero también se encuentran muchos gases que industrialmente son comprimidos para poderlos transportar, como el argón, el acetileno, el oxígeno o el propano
+
+          .col-md-6
+            figure
+              img(src='@/assets/curso/tema1/img15.svg', alt='Gaseoso')              
+    
+    p.mb-4 Los productos químicos pueden cambiar su estado de materia, es decir, pueden pasar de estado líquido a estado sólido o gaseoso. 
+    p Se debe tener en cuenta que cada cambio de estado requiere unas condiciones especiales de temperatura.
+    p.mb-4 En la figura se pueden observar estos cambios de estado. 
+
+    .row.mb-5
+      .col-md-5
+        figure
+          img(src='@/assets/curso/tema1/img17.svg', alt='')
+      .col-md-1
+      .col-md-6.d-flex.align-items-center
+        div
+          p Los cambios de estado que requieren aumento en la temperatura, son:
+          br
+          ul.lista-ul.mb-4
+            li
+              p  
+                strong.fas.fa-angle-right La fusión:
+                | es el cambio de un estado sólido a líquido de la misma materia. 
+            li 
+              p             
+                strong.fas.fa-angle-right La vaporización: 
+                | es el cambio de estado líquido a gaseoso.
+            li  
+              p            
+                strong.fas.fa-angle-right La volatización o sublimación progresiva: 
+                |es el cambio de estado sólido a gaseoso.
+          
+          p Ahora, los cambios de estado que requieren disminución de la temperatura, son:
+          br
+          ul.lista-ul.mb-4
+            li
+              p  
+                strong.fas.fa-angle-right La condensación: 
+                | se presenta cuando un gas pasa a estado líquido.
+            li  
+              p  
+                strong.fas.fa-angle-right La solidificación: 
+                | sucede cuando un líquido pasa a estado sólido. Cuando un gas pasa a estado sólido se presenta una sublimación regresiva.
+    hr
+               
+ 
 
 </template>
 
@@ -27,7 +179,32 @@
 export default {
   name: 'Tema1',
   data: () => ({
-    // variables de vue
+    datosSlyder: [
+      {
+        titulo: '¿En cuál o en cuáles de esas imagenes hay productos químicos?',
+        texto:
+          'Seguramente la respuesta es que en tres (3) hay productos químicos; sin embargo, la respuesta correcta sería en las cuatro (4) figuras.<br><br> Es de recordar que el agua es el producto final de una reacción química, H2O, y esta aparece en grandes cantidades en la figura 3, incluso los seres vivos que aparecen allí están compuestos por sustancias químicas. ',
+        imagen: require('@/assets/curso/tema1/img01.png'),
+      },
+      {
+        titulo: '¿En cuál o en cuáles de esas imagenes hay productos químicos?',
+        texto:
+          'Seguramente la respuesta es que en tres (3) hay productos químicos; sin embargo, la respuesta correcta sería en las cuatro (4) figuras.<br><br> Es de recordar que el agua es el producto final de una reacción química, H2O, y esta aparece en grandes cantidades en la figura 3, incluso los seres vivos que aparecen allí están compuestos por sustancias químicas. ',
+        imagen: require('@/assets/curso/tema1/img02.png'),
+      },
+      {
+        titulo: '¿En cuál o en cuáles de esas imagenes hay productos químicos?',
+        texto:
+          'Seguramente la respuesta es que en tres (3) hay productos químicos; sin embargo, la respuesta correcta sería en las cuatro (4) figuras.<br><br> Es de recordar que el agua es el producto final de una reacción química, H2O, y esta aparece en grandes cantidades en la figura 3, incluso los seres vivos que aparecen allí están compuestos por sustancias químicas. ',
+        imagen: require('@/assets/curso/tema1/img03.png'),
+      },
+      {
+        titulo: '¿En cuál o en cuáles de esas imagenes hay productos químicos?',
+        texto:
+          'Seguramente la respuesta es que en tres (3) hay productos químicos; sin embargo, la respuesta correcta sería en las cuatro (4) figuras.<br><br> Es de recordar que el agua es el producto final de una reacción química, H2O, y esta aparece en grandes cantidades en la figura 3, incluso los seres vivos que aparecen allí están compuestos por sustancias químicas. ',
+        imagen: require('@/assets/curso/tema1/img04.png'),
+      },
+    ],
   }),
 }
 </script>

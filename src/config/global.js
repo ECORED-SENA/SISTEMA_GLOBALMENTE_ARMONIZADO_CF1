@@ -29,8 +29,14 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Estilos tipográficos',
+            titulo: 'Definición de productos químicos',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Estado físico',
+            hash: 't_1_2',
           },
         ],
       },
@@ -46,6 +52,21 @@ export default {
             numero: '2.1',
             titulo: 'Infografía Animada',
             hash: 't_2_1',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema3',
+        icono: 'far fa-file-alt',
+        numero: '3',
+        titulo: 'Muestras',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Muestras',
+            hash: 't_3_1',
           },
         ],
       },

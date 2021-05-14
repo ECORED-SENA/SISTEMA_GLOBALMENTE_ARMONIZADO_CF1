@@ -1,2 +1,1 @@
-module.exports =
-  'Productos químicos'
+module.exports = 'Productos químicos'

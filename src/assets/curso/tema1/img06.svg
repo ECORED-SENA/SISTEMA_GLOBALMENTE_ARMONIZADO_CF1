@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="126" height="126" viewBox="0 0 126 126">
+  <g id="Grupo_58921" data-name="Grupo 58921" transform="translate(-324 -2352)">
+    <g id="Elipse_4270" data-name="Elipse 4270" transform="translate(324 2352)" fill="#fff" stroke="#09b291" stroke-width="5">
+      <circle cx="63" cy="63" r="63" stroke="none"/>
+      <circle cx="63" cy="63" r="60.5" fill="none"/>
+    </g>
+    <g id="pencil-box" transform="translate(349.512 2369.986)">
+      <g id="Grupo_54518" data-name="Grupo 54518" transform="translate(0 5.192)">
+        <g id="Grupo_54517" data-name="Grupo 54517" transform="translate(0 0)">
+          <path id="Trazado_101238" data-name="Trazado 101238" d="M66.631,32.817V18.1a4.573,4.573,0,0,0-4.569-4.569H50.641A4.573,4.573,0,0,0,46.072,18.1V31.807H42.645V22.733l1.2-10.827L35.792,5.192l-8.057,6.714,1.2,10.828v8.6L13.365,15.759A7.6,7.6,0,1,0,2.612,26.512l5.3,5.3H6.384L0,53.508H6.1v21.7H66.631v-21.7H71.5ZM35.792,14.674a1.142,1.142,0,1,1-1.142,1.142A1.143,1.143,0,0,1,35.792,14.674ZM34.65,9.118V12.6a3.427,3.427,0,1,0,2.284,0V9.118l4.507,3.757-.961,8.653H31.1l-.955-8.653Zm5.717,14.694,0,8H31.224v-8Zm-14.185,8H20.275L14.564,26.1l2.954-2.954Zm-9.137,0H11.137L10,30.665l2.954-2.954ZM4.227,24.9a5.319,5.319,0,0,1,7.522-7.522l.726.726L4.954,25.623Zm2.341,2.341,7.522-7.522L15.9,21.527,8.38,29.05ZM3.054,51.224,8.092,34.091H44.545L39.507,51.224Zm41.875,21.7H8.38V53.508H41.215L44.93,40.881V72.925ZM48.356,18.1a2.287,2.287,0,0,1,2.284-2.284H62.062A2.287,2.287,0,0,1,64.347,18.1v2.284H48.356Zm0,4.569h15.99v9.137H60.285a4.522,4.522,0,0,0,.635-2.284,4.569,4.569,0,0,0-9.137,0,4.522,4.522,0,0,0,.635,2.284H48.356Zm10.28,6.853a2.284,2.284,0,1,1-2.284-2.284A2.287,2.287,0,0,1,58.636,29.523Zm5.711,43.4H47.214V42.79l2.522,10.718H64.347Zm-12.8-21.7L47.514,34.091h17.07l4.031,17.133Z" transform="translate(0 -5.192)" fill="#065949" stroke="#065949" stroke-width="1"/>
+          <rect id="Rectángulo_5352" data-name="Rectángulo 5352" width="2.284" height="2.284" transform="translate(39.219 63.164)" fill="#065949" stroke="#065949" stroke-width="1"/>
+          <rect id="Rectángulo_5353" data-name="Rectángulo 5353" width="2.284" height="2.284" transform="translate(34.65 63.164)" fill="#065949" stroke="#065949" stroke-width="1"/>
+          <rect id="Rectángulo_5354" data-name="Rectángulo 5354" width="2.284" height="2.284" transform="translate(30.081 63.164)" fill="#065949" stroke="#065949" stroke-width="1"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

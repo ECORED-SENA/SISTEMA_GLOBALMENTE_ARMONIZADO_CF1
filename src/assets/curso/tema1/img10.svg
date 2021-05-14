@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="151" height="172" viewBox="0 0 151 172">
+  <g id="Grupo_58925" data-name="Grupo 58925" transform="translate(-888 -3181)">
+    <text id="Gaseoso" transform="translate(888 3321)" fill="#12263f" font-size="18" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="40.467" y="19">Gaseoso</tspan></text>
+    <g id="Grupo_55667" data-name="Grupo 55667" transform="translate(639 -2810)">
+      <g id="Elipse_4314" data-name="Elipse 4314" transform="translate(262 5991)" fill="#fff" stroke="#fad228" stroke-width="5">
+        <circle cx="63" cy="63" r="63" stroke="none"/>
+        <circle cx="63" cy="63" r="60.5" fill="none"/>
+      </g>
+      <g id="Grupo_55673" data-name="Grupo 55673">
+        <circle id="Elipse_4315" data-name="Elipse 4315" cx="9.5" cy="9.5" r="9.5" transform="translate(288 6011)" fill="#fad228"/>
+        <circle id="Elipse_4319" data-name="Elipse 4319" cx="9.5" cy="9.5" r="9.5" transform="translate(270 6041)" fill="#fad228"/>
+        <circle id="Elipse_4322" data-name="Elipse 4322" cx="9.5" cy="9.5" r="9.5" transform="translate(279 6068)" fill="#fad228"/>
+        <circle id="Elipse_4318" data-name="Elipse 4318" cx="9.5" cy="9.5" r="9.5" transform="translate(298 6041)" fill="#fad228"/>
+        <circle id="Elipse_4316" data-name="Elipse 4316" cx="9.5" cy="9.5" r="9.5" transform="translate(319 6001)" fill="#fad228"/>
+        <circle id="Elipse_4321" data-name="Elipse 4321" cx="9.5" cy="9.5" r="9.5" transform="translate(326 6030)" fill="#fad228"/>
+        <circle id="Elipse_4323" data-name="Elipse 4323" cx="9.5" cy="9.5" r="9.5" transform="translate(307 6087)" fill="#fad228"/>
+        <circle id="Elipse_4317" data-name="Elipse 4317" cx="9.5" cy="9.5" r="9.5" transform="translate(351 6018)" fill="#fad228"/>
+        <circle id="Elipse_4320" data-name="Elipse 4320" cx="9.5" cy="9.5" r="9.5" transform="translate(358 6046)" fill="#fad228"/>
+        <circle id="Elipse_4327" data-name="Elipse 4327" cx="9.5" cy="9.5" r="9.5" transform="translate(326 6063)" fill="#fad228"/>
+        <circle id="Elipse_4324" data-name="Elipse 4324" cx="9.5" cy="9.5" r="9.5" transform="translate(351 6074)" fill="#fad228"/>
+      </g>
+    </g>
+  </g>
+</svg>
