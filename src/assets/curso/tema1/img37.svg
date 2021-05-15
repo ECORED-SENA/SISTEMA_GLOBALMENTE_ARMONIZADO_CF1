@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="455" viewBox="0 0 720 455">
+  <g id="Grupo_58938" data-name="Grupo 58938" transform="translate(-323 -10835)">
+    <g id="Rectángulo_673" data-name="Rectángulo 673" transform="translate(323 10889)" fill="#09b291" stroke="#e1e1e1" stroke-width="1" opacity="0.1">
+      <rect width="720" height="368" stroke="none"/>
+      <rect x="0.5" y="0.5" width="719" height="367" fill="none"/>
+    </g>
+    <rect id="Rectángulo_5754" data-name="Rectángulo 5754" width="202" height="318" transform="translate(323 10939)" fill="#69d1ff" opacity="0.69"/>
+    <rect id="Rectángulo_5753" data-name="Rectángulo 5753" width="720" height="4" transform="translate(323 10835)" fill="#065949"/>
+    <rect id="Rectángulo_675" data-name="Rectángulo 675" width="720" height="50" transform="translate(323 10889)" fill="#09b291" opacity="0.6"/>
+    <rect id="Rectángulo_5752" data-name="Rectángulo 5752" width="720" height="50" transform="translate(323 10839)" fill="#09b291"/>
+    <text id="Unidad" transform="translate(402 10920)" fill="#002c23" font-size="18" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Unidad</tspan></text>
+    <text id="Símbolo" transform="translate(550 10920)" fill="#002c23" font-size="18" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Símbolo</tspan></text>
+    <text id="Equivalencia" transform="translate(794 10920)" fill="#002c23" font-size="18" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Equivalencia</tspan></text>
+    <text id="UNIDADES_DE_PRESIÓN" data-name="UNIDADES DE PRESIÓN" transform="translate(581 10870)" fill="#fff" font-size="18" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">UNIDADES DE PRESIÓN</tspan></text>
+    <line id="Línea_52" data-name="Línea 52" y2="318" transform="translate(525 10939)" fill="none" stroke="#e1e1e1" stroke-width="1"/>
+    <line id="Línea_55" data-name="Línea 55" x1="719" transform="translate(324 11029)" fill="none" stroke="#e1e1e1" stroke-width="1"/>
+    <line id="Línea_154" data-name="Línea 154" x1="719" transform="translate(324 11178)" fill="none" stroke="#e1e1e1" stroke-width="1"/>
+    <line id="Línea_85" data-name="Línea 85" x1="719" transform="translate(324 11108)" fill="none" stroke="#e1e1e1" stroke-width="1"/>
+    <line id="Línea_53" data-name="Línea 53" y2="368" transform="translate(645 10889)" fill="none" stroke="#e1e1e1" stroke-width="1"/>
+    <line id="Línea_155" data-name="Línea 155" y2="368" transform="translate(525 10889)" fill="none" stroke="#e1e1e1" stroke-width="1"/>
+    <text id="Atmósfera" transform="translate(393 10972)" fill="#12263f" font-size="15" font-family="SegoeUI, Segoe UI"><tspan x="0" y="16">Atmósfera</tspan></text>
+    <text id="Pascal" transform="translate(405 11054)" fill="#12263f" font-size="15" font-family="SegoeUI, Segoe UI"><tspan x="0" y="16">Pascal</tspan></text>
+    <text id="Bar" transform="translate(416 11130)" fill="#12263f" font-size="15" font-family="SegoeUI, Segoe UI"><tspan x="0" y="16">Bar</tspan></text>
+    <text id="Milímetro_de_mercurio" data-name="Milímetro de mercurio" transform="translate(352 11209)" fill="#12263f" font-size="15" font-family="SegoeUI, Segoe UI"><tspan x="0" y="16">Milímetro de mercurio</tspan></text>
+    <text id="_1_atm_1_kgf_cm2" data-name="1 atm = 1 kgf/cm2" transform="translate(781 10969)" fill="#12263f" font-size="15" font-family="SegoeUI, Segoe UI"><tspan x="0" y="16">1 atm = 1 kgf/cm2</tspan></text>
+    <text id="_1_Pa_1_N_m_" data-name="1 Pa = 1 N/m²" transform="translate(797 11051)" fill="#12263f" font-size="15" font-family="SegoeUI, Segoe UI"><tspan x="0" y="16">1 Pa = 1 N/m²</tspan></text>
+    <text id="_1_mmHg_01.0013_bar" data-name="1 mmHg = 01.0013 bar" transform="translate(766 11205)" fill="#12263f" font-size="15" font-family="SegoeUI, Segoe UI"><tspan x="0" y="16">1 mmHg = 01.0013 bar</tspan></text>
+    <text id="_1_bar_105_Pa_105_N_m_0_987_atm_750_mmHg" data-name="1 bar =105  Pa = 105  N/m² = 0,987 atm = 750 mmHg" transform="translate(672 11128)" fill="#12263f" font-size="15" font-family="SegoeUI, Segoe UI"><tspan x="0" y="16">1 bar =10</tspan><tspan y="16" xml:space="preserve" font-size="8.75" baseline-shift="4.999500156940817">5  </tspan><tspan y="16">Pa = 10</tspan><tspan y="16" font-size="8.75" baseline-shift="4.999500156940817">5</tspan><tspan y="16" xml:space="preserve">  N/m² = 0,987 atm = 750 </tspan></text>
+    <text id="atm" transform="translate(571 10988)" fill="#12263f" font-size="15" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">atm</tspan></text>
+    <text id="Pa" transform="translate(575 11070)" fill="#12263f" font-size="15" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Pa</tspan></text>
+    <text id="bar-2" data-name="bar" transform="translate(573 11146)" fill="#12263f" font-size="15" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">bar</tspan></text>
+    <text id="mmHg" transform="translate(561 11225)" fill="#12263f" font-size="15" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">mmHg</tspan></text>
+    <text id="Nota._Tomada_de_María_s.f_._" data-name="Nota. Tomada de María (s.f). " transform="translate(323 11273)" fill="#636363" font-size="13" font-family="SegoeUI, Segoe UI"><tspan x="0" y="14">Nota. Tomada de María (s.f). </tspan></text>
+  </g>
+</svg>

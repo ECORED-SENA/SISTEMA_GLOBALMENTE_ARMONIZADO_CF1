@@ -389,6 +389,101 @@
     hr.mb-5
     #t_1_5.titulo-segundo
       .h4 1.5 Temperatura y presión según el estado
+    
+    .row.mb-4
+      .col-lg-8  
+        p.mb-4 Los productos químicos se ven afectados por factores externos a su propia constitución y dentro de esos factores externos, los más importantes son la presión y temperatura. Por ejemplo, en las características que tiene un litro de agua, se nota que es muy diferente cuando este se encuentra a temperatura ambiente a cuando el mismo litro de agua, se encuentra en ebullición (hirviendo). Por esta razón, es necesario tener una idea general de los cambios que puede presentar la materia en virtud de la temperatura a la que está expuesta.
+        p La temperatura es una magnitud escalar que se define como la cantidad de energía cinética de las partículas de una masa gaseosa, líquida o sólida; así que cuanto mayor es la velocidad de las partículas, mayor es la temperatura y viceversa.
+      .col-lg-4.d-flex.justify-content-center        
+        figure.w-50
+          img(src='@/assets/curso/tema1/img34.svg', alt='Temperatura')              
+
+    h5.mb-4 Concentración de una solución química
+    p.mb-4 Una magnitud escalar es aquella que queda completamente determinada con un número y sus correspondientes unidades, y una magnitud vectorial es aquella a la que, además de un valor numérico y sus unidades (módulo), se debe especificar su dirección y sentido.
+    p.mb-4 La medición de la temperatura está relacionada con la noción de frío (menor temperatura) y de calor (mayor temperatura), que se puede percibir de manera instintiva. Además, la temperatura actúa como un valor de referencia para determinar el calor normal del cuerpo humano, información que sirve para estimar estados de salud. El calor también se utiliza para los procesos químicos, industriales y metalúrgicos (Raffino, 2020).
+    p.mb-4 Dentro de las escalas para medir temperatura, las más usadas son la Celsius, también conocida como “escala centígrada” y la escala Fahrenheit, pero también existen otras; ahora se analizará cada una de ellas (Raffino, 2020):
+
+    .row.mb-4
+      .col-lg-6.d-flex.align-items-center    
+        div                                  
+          ul.lista-ul--colors
+            li.mb-4 
+              i.lista-ul__vineta                  
+              | En la escala Celsius, el punto de congelación del agua equivale a 0 °C (cero grados centígrados) y su punto de ebullición a 100 °C.
+            li.mb-4 
+              i.lista-ul__vineta                  
+              | La escala Fahrenheit es la medida utilizada en la mayoría de los países de habla inglesa. En esta escala, el punto de congelación del agua ocurre a los 32 °F y su punto de ebullición a los 212 °F.
+            li.mb-4 
+              i.lista-ul__vineta                  
+              | La escala Kelvin es la medida que suele utilizarse en ciencia y establece el “cero absoluto” como punto cero, lo que supone que el objeto no desprende calor alguno y equivale a -273,15 °C (grados centígrados).
+            li.mb-4 
+              i.lista-ul__vineta                  
+              | La escala Rankine es la medida usada comúnmente en Estados Unidos para la medición de temperatura termodinámica y se define al medir los grados Fahrenheit sobre el cero absoluto, por lo que carece de valores negativos o bajo cero (Raffino, 2020).
+
+      .col-lg-6.d-flex.justify-content-center        
+        figure.w-85
+          img(src='@/assets/curso/tema1/img35.svg', alt='Concentracion')              
+
+    br
+    p.mb-4 Teniendo clara la variable temperatura, se continúa con el estudio de la variable presión y cómo afecta las características de los productos químicos. 
+    p.mb-4 Raffino (2020), indica que la presión es una magnitud escalar representada con el símbolo p, que designa una proyección de fuerza ejercida de manera perpendicular sobre una superficie, por unidad de superficie.
+    p.mb-4 La presión relaciona una fuerza de acción continua y una superficie sobre la cual actúa, por lo cual se mide en el Sistema Internacional (SI) en pascales (Pa), equivalentes cada uno a un newton (N) de fuerza actuando sobre un metro cuadrado (m2) de superficie. En el sistema inglés, en cambio, se prefiere la medida de libras (pounds) por pulgadas (inches).
+    br
+
+    .row.mb-4    
+      .col-lg-4
+      .col-lg-4.d-flex.align-items-center    
+        figure.w-90
+          img(src='@/assets/curso/tema1/img36.svg', alt='Presion')                        
+      .col-lg-4
+    br
+    p.mb-4 Los productos químicos comúnmente están sometidos a distintas formas de presión. Por ejemplo, un gas dentro de un recipiente que lo contenga, ejercerá mayor presión si se aumenta la temperatura. En general, los cambios de presión a los que se somete la materia pueden obligarla a cambiar de estado de agregación.
+    p.mb-4 Otras unidades de medición de la presión incluyen el bar (10 N/cm3), la atm o atmósfera (equivalente a unos 101.325 pa), el Torr (equivalente a 133,32 pa), y los milímetros de mercurio (mmHg). 
+    br
+
+    .row.mb-4    
+      .col-lg-2
+      .col-lg-8.d-flex.align-items-center    
+        figure
+          img(src='@/assets/curso/tema1/img37.svg', alt='Tabla')                        
+      .col-lg-2
+    br
+    .row.mb-4
+      .col-lg-6.d-flex.align-items-center
+        div
+          ul.lista-ul--colors
+            li.mb-4 
+              i.lista-ul__vineta                  
+              | Presión absoluta: es la que se ejerce sobre un cuerpo por la acción de algún elemento, más la presión atmosférica que sufre (todos cuerpos en el planeta están sometidos a la presión atmosférica).
+            li.mb-4 
+              i.lista-ul__vineta                  
+              | Presión absoluta: es la que se ejerce sobre un cuerpo por la acción de algún elemento, más la presión atmosférica que sufre (todos cuerpos en el planeta están sometidos a la presión atmosférica).
+            li.mb-4 
+              i.lista-ul__vineta                  
+              | Presión manométrica: existe por sobre el valor de presión atmosférica. También llamada presión relativa, su valor corresponde a la diferencia entre el de la presión absoluta y el de la presión atmosférica. La presión relativa se mide utilizando un manómetro (de allí su nombre) y es la que más se utiliza en la vida cotidiana.
+            li 
+              i.lista-ul__vineta                  
+              | Presión hidrostática o hidrodinámica: es la que experimentan los fluidos, tanto debido al peso del propio fluido en reposo (hidrostática), como en constante movimiento (hidrodinámica). Usualmente se calcula una presión media entre las dos (Raffino, 2020).
+
+      .col-lg-6.d-flex.justify-content-center.align-items-center
+        figure.w-65
+          img(src='@/assets/curso/tema1/img38.svg', alt='Presion')              
+    br
+    p.mb-4 La presión y la temperatura están íntimamente conectadas. Cuando una sustancia compresible (como un líquido o, mejor aún, un gas) se somete a grandes presiones que obligan a sus partículas (ordinariamente dispersas) a aproximarse las unas a las otras y a vibrar con mayor velocidad, se produce una acumulación de energía que se suele libera como calor. En efecto, a mayor velocidad de las partículas, mayor temperatura (Raffino, 2020).
+    p.mb-4 Esta relación está descrita por la Ley de Gay-Lussac, que establece una proporción directa entre la presión de un volumen fijo de un gas ideal y su temperatura, según la fórmula:
+
+    .row.mb-4    
+      .col-lg-3
+      .col-lg-6.d-flex.align-items-center.justify-content-center
+        div
+          h4.text-center P/T = k        
+          figure
+            img(src='@/assets/curso/tema1/img39.svg', alt='p/t')                        
+      .col-lg-3
+    br
+    p La presión de un volumen fijo de gas, es directamente proporcional a su temperatura, es decir que, al aumentar la temperatura, las moléculas del gas se mueven más rápidamente y por tanto aumenta el número de choques contra las paredes, es decir aumenta la presión ya que el recipiente es de paredes fijas y su volumen no puede cambiar.
+    p Donde P es presión, T es temperatura y k es una constante (Raffino, 2020).
+
 </template>
 
 <script>
