@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="211" viewBox="0 0 260 211">
+  <defs>
+    <style>
+      .cls-1, .cls-5 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #707070;
+        mix-blend-mode: multiply;
+        isolation: isolate;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 3px;
+        stroke-dasharray: 3 4;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        stroke: #8a8a8a;
+      }
+
+      .cls-3 {
+        fill: #09b291;
+        opacity: 0.8;
+      }
+
+      .cls-4 {
+        fill: #009b7d;
+      }
+
+      .cls-6 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_58928" data-name="Grupo 58928" transform="translate(-691 -6530)">
+    <g id="Grupo_58924" data-name="Grupo 58924">
+      <line id="Línea_141" data-name="Línea 141" class="cls-1" y1="61" transform="translate(821.5 6668.5)"/>
+      <g id="Elipse_4350" data-name="Elipse 4350" class="cls-2" transform="translate(757 6530)">
+        <circle class="cls-6" cx="65" cy="65" r="65"/>
+        <circle class="cls-5" cx="65" cy="65" r="63.5"/>
+      </g>
+      <circle id="Elipse_4351" data-name="Elipse 4351" class="cls-3" cx="54" cy="54" r="54" transform="translate(769 6541)"/>
+      <g id="Grupo_56284" data-name="Grupo 56284" transform="translate(552 1)">
+        <circle id="Elipse_4363" data-name="Elipse 4363" class="cls-4" cx="11" cy="11" r="11" transform="translate(234 6603)"/>
+        <circle id="Elipse_4364" data-name="Elipse 4364" class="cls-4" cx="11" cy="11" r="11" transform="translate(256 6622)"/>
+        <circle id="Elipse_4365" data-name="Elipse 4365" class="cls-4" cx="11" cy="11" r="11" transform="translate(283 6609)"/>
+        <circle id="Elipse_4366" data-name="Elipse 4366" class="cls-4" cx="11" cy="11" r="11" transform="translate(259 6584)"/>
+        <circle id="Elipse_4367" data-name="Elipse 4367" class="cls-4" cx="11" cy="11" r="11" transform="translate(223 6570)"/>
+        <circle id="Elipse_4368" data-name="Elipse 4368" class="cls-4" cx="11" cy="11" r="11" transform="translate(245 6548)"/>
+        <circle id="Elipse_4369" data-name="Elipse 4369" class="cls-4" cx="11" cy="11" r="11" transform="translate(283 6556)"/>
+        <circle id="Elipse_4370" data-name="Elipse 4370" class="cls-4" cx="11" cy="11" r="11" transform="translate(298 6578)"/>
+      </g>
+    </g>
+    <rect id="Rectángulo_6370" data-name="Rectángulo 6370" class="cls-5" width="260" height="211" transform="translate(691 6530)"/>
+  </g>
+</svg>

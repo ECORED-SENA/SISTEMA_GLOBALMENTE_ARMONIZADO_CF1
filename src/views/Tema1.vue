@@ -90,7 +90,7 @@
 
     p A continuación, se analizará cada uno de estos estados:
    
-    TabsB.color-acento-contenido.mb-4
+    TabsB.mb-4
       .py-4.py-md-5(titulo="Sólido" :icono="require('@/assets/curso/tema1/img12.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
@@ -169,10 +169,226 @@
               p  
                 strong.fas.fa-angle-right La solidificación: 
                 | sucede cuando un líquido pasa a estado sólido. Cuando un gas pasa a estado sólido se presenta una sublimación regresiva.
-    hr
-               
- 
+    hr.mb-5
 
+    #t_1_3.titulo-segundo
+      .h4 1.3 Productos químicos peligrosos
+    
+    p.mb-4 Hay que tener presente que un producto químico también puede ser peligroso, y al respecto una de las definiciones más conocidas es la publicada por el Instituto Nacional de Seguridad y Salud en el Trabajo de España (Insst), la cual dice:
+ 
+    .row.mb-4
+      .col-md-1
+      .col-md-6.d-flex.align-items-center.borde1
+        p Un producto químico, en forma de sustancia o en forma de mezcla (formada por dos o más sustancias), puede presentar un riesgo para la seguridad y salud de los trabajadores o para el medio ambiente debido a sus propiedades fisicoquímicas, químicas o toxicológica o a la forma en la que se utiliza o se encuentra presente en el lugar de trabajo (Insst, 2013).
+      .col-md-3
+        figure
+          img(src='@/assets/curso/tema1/img18.svg', alt='')
+      .col-md-2
+    br
+    hr.mb-5
+
+    #t_1_4.titulo-segundo
+      .h4 1.4 Condiciones de concentración
+
+    p.mb-4 Para ilustrar esta parte, se debe analizar el siguiente caso de la vida cotidiana, donde la química tiene aplicación:
+ 
+    .row.mb-4
+      .col-md-3
+        figure
+          img(src='@/assets/curso/tema1/img19.svg', alt='')  
+      .col-md-9.d-flex.align-items-center
+        div
+          p.mb-4 Cuando ofrecen una taza de café y quien lo toma dice que está muy “cargado”, lo lógico es que solicite “rebajarlo” un poco, agregando agua.           
+          p.mb-4 Cuando se dice que el café está cargado en realidad se está hablando de una alta concentración de café en la taza y cuando se agrega agua a la taza se está bajando la concentración, es decir, se está diluyendo el café. Entonces, un tinto es una solución de café y azúcar en agua.             
+          p.mb-4 Algunas personas, prefieren una solución concentrada (cargado) y otras lo prefieren diluido (clarito). De esta manera, la proporción de café, azúcar y agua hacen de cada tinto un café diferente.           
+          p.mb-4 En este ejemplo, el café y el azúcar son llamados solutos y el agua se denomina solvente.          
+
+    p.mb-4 El ejemplo anterior muestra que una solución es una mezcla homogénea cuyos componentes, llamados soluto y solvente, no pueden ser separados por métodos mecánicos simples (filtración, decantación y centrifugación).    
+    p.mb-4 Las soluciones verdaderas constan de un solvente y uno o varios solutos, cuyas proporciones varían de una solución a otra:
+
+    .row.mb-4
+      .col-md-5
+        figure
+          img(src='@/assets/curso/tema1/img20.svg', alt='')  
+      .col-md-1
+      .col-md-6.d-flex.align-items-center
+        div
+          p.mb-4 Por definición, el solvente es la especie que se encuentra en mayor proporción y el soluto es la especie en menor proporción.           
+          p.mb-4 En las soluciones pueden darse diferentes combinaciones en las que sólidos, líquidos o gases actúan como solutos o como solventes. La clase más común es aquella en la que el solvente es un líquido, por ejemplo, el agua de mar es una solución acuosa de muchas sales y algunos gases.
+          p.mb-4 Algunas soluciones comunes en los lugares de trabajo son: el hipoclorito de sodio, en muchos casos la soda cáustica, el ácido muriático, etc. (UFT, s.f.).
+
+    hr   
+
+    .h5 Tipos de solución química
+    p.mb-4 Dependiendo de la proporción del soluto en una solución, existen los siguientes tipos de solución, de acuerdo con Raffino (2020):
+
+    .row.mb-4
+      .col-md-3
+        div
+          figure
+            img(src='@/assets/curso/tema1/img21.svg', alt='')   
+        div.border.color-primario.d-flex.align-items-center.justify-content-center.mb-4         
+          h6.text-center.my-2 Diluidas
+        p.text-center Cuando la cantidad de soluto respecto al solvente es muy pequeña. Por ejemplo: 1 gramo de azúcar en 100 gramos de agua.
+      .col-md-3
+        div
+          figure
+            img(src='@/assets/curso/tema1/img22.svg', alt='')            
+        div.border.color-secundario.d-flex.align-items-center.justify-content-center.mb-4         
+          h6.my-2 Concentradas
+        p.text-center Cuando la cantidad de soluto respecto al solvente es grande. Por ejemplo: 25 gramos de azúcar en 100 gramos de agua.
+      .col-md-3
+        div
+          figure
+            img(src='@/assets/curso/tema1/img23.svg', alt='')            
+        div.border.color-acento-botones.d-flex.align-items-center.justify-content-center.mb-4        
+          h6.my-2 Saturadas        
+        p.text-center Cuando el solvente no acepta ya más soluto a una determinada temperatura. Por ejemplo: 36 gramos de azúcar en 100 gramos de agua a 20 °C.      
+      .col-md-3
+        div
+          figure
+            img(src='@/assets/curso/tema1/img24.svg', alt='')    
+        div.border.color-acento-contenido.d-flex.align-items-center.justify-content-center.mb-4         
+          h6.my-2 Sobresaturadas          
+        p.text-center Como la saturación tiene que ver con la temperatura, si se incrementa la temperatura, se puede forzar al solvente a tomar más soluto del que ordinariamente puede, obteniendo una solución sobresaturada (saturada en exceso). Así, sometida a un calentamiento, la solución tomará mucho más soluto del que ordinariamente podría contener (Raffino, 2020). 
+
+      a.anexo.mb-4.mb-lg-0.milink(href="http://quimicabiologianutricional.blogspot.com/2016/10/usos-y-aplicaciones-de-las-soluciones.html" target="_blank")
+        .anexo__icono
+          img(src="@/assets/curso/tema1/icono-link.svg")
+        .anexo__texto
+          strong Para ampliar la información se recomienda consultar el siguiente enlace 
+          p Biología, (2016). Usos y aplicaciones de las soluciones farmacéuticas.
+    br
+    p.mb-4 Siguiendo a Raffino (2020), también se pueden clasificar por el estado de agregación o estado físico.
+
+    TabsB.mb-4
+      .py-0.py-md-5(titulo="Sólidas" :icono="require('@/assets/curso/tema1/img25.svg')")
+        .row
+          .col-md-1
+          .col-md-6.mb-4.mb-md-0.d-flex.align-items-center            
+            div                    
+              .h4 Sólidas          
+              ul.lista-ul--colors
+                li.mb-4 
+                  i.lista-ul__vineta
+                  strong Sólido en sólido: 
+                  | los dos componentes de la solución están en estado sólido, es decir, tanto el soluto como el disolvente se encuentran en estado sólido. Por ejemplo: las aleaciones como el latón (cobre y zinc, ).
+                li.mb-4 
+                  i.lista-ul__vineta
+                  strong  Gas en sólido: 
+                  | en este caso el soluto es un gas y el disolvente es un sólido. Por ejemplo: hidrógeno en paladio, polvo volcánico, entre otros.
+                li.mb-4 
+                  i.lista-ul__vineta
+                  strong  Líquido en sólido: 
+                  | en este caso el soluto es un líquido y el disolvente es un sólido. Por ejemplo: las amalgamas (mercurio y plata).
+
+          .col-md-1
+          .col-md-3
+            figure
+              img(src='@/assets/curso/tema1/img28.svg', alt='Sólido')              
+          .col-md-1
+
+      .py-4.py-md-5(titulo="Líquidas" :icono="require('@/assets/curso/tema1/img26.svg')")
+        .row
+          .col-md-1
+          .col-md-6.mb-4.mb-md-0.d-flex.align-items-center            
+            div                    
+              .h4 Líquidas
+              ul.lista-ul--colors
+                li.mb-4 
+                  i.lista-ul__vineta
+                  strong Sólido en líquido: 
+                  | este es el caso más conocido y en él, por lo general, se disuelven pequeñas cantidades de sólido (soluto) en un líquido (disolvente). Por ejemplo: azúcar disuelto en agua.
+                li.mb-4 
+                  i.lista-ul__vineta
+                  strong Gas en líquido: 
+                  | en este caso se disuelve un gas (soluto) en un líquido (disolvente). Por ejemplo: el oxígeno disuelto en el agua de mar, que es responsable de la vida acuática en el planeta
+                li.mb-4 
+                  i.lista-ul__vineta
+                  strong Líquido en líquido: 
+                  | tanto el soluto como el disolvente son líquidos. Por ejemplo: las amalgamas (mercurio y plata).                  
+          .col-md-1
+          .col-md-3
+            figure
+              img(src='@/assets/curso/tema1/img30.svg', alt='Líquido')              
+          .col-md-1
+
+      .py-4.py-md-5(titulo="Gaseosas" :icono="require('@/assets/curso/tema1/img27.svg')")
+        .row
+          .col-md-1
+          .col-md-6.mb-4.mb-md-0.d-flex.align-items-center            
+            div                    
+              .h4 Gaseosas
+              ul.lista-ul--colors
+                li.mb-4 
+                  i.lista-ul__vineta
+                  strong Sólido en gas: 
+                  | en este caso el soluto es un gas y el disolvente es un sólido. Por ejemplo: polvo disuelto en aire. La cantidad de polvo disuelta en el aire es tomada como referencia en la evaluación de contaminación ambiental                  
+                li.mb-4 
+                  i.lista-ul__vineta
+                  strong Gas en gas: 
+                  | tanto el soluto como el disolvente son gases. En muchas ocasiones estas disoluciones se asumen como mezclas debido a las débiles interacciones entre las partículas de los gases. Por ejemplo: oxígeno en aire.                                  
+                li.mb-4 
+                  i.lista-ul__vineta
+                  strong Líquido en gas: 
+                  | aquí el soluto es un líquido y el disolvente es un gas. Por ejemplo: vapor de agua en el aire (Raffino, 2020).
+                  
+          .col-md-1
+          .col-md-3
+            figure
+              img(src='@/assets/curso/tema1/img29.svg', alt='Líquido')              
+          .col-md-1
+    
+    .row
+      .col-md-8.d-flex.align-items-center  
+        div          
+          h5 Concentración de una solución química
+          p.mb-4 Volviendo al ejemplo del tinto, en el que se explicaba que la concentración es la cantidad de soluto (café y azúcar) en el solvente (agua), si se mide la cantidad de café o la cantidad de azúcar que se utiliza para un volumen específico de agua, se podrá determinar la concentración de cada uno de los solutos. Es decir, medir la cantidad de cada componente en la solución, es conocer su concentración.
+          p.mb-4 Se puede decir, entonces, que la concentración es una magnitud que describe la proporción de soluto respecto al solvente en una disolución. 
+          p.mb-4 Esta magnitud se expresa en dos tipos distintos de unidades:
+      .col-md-4.px-5
+        figure
+          img(src='@/assets/curso/tema1/img31.svg', alt='Café')              
+
+    .row.mb-5
+      .col-lg-4.d-flex
+        .cajon.color-primario.p-4.mb-4
+          .h5 Unidades físicas          
+          p.mb-4 Son aquellas que se expresan en relación al peso y al volumen de la solución, en forma porcentual (se multiplican por 100). 
+          div                                  
+            ul.lista-ul--colors
+              li.mb-4 
+                i.lista-ul__vineta                  
+                | % peso/peso. Se expresa en gramos de soluto sobre gramos de solución.
+              li.mb-4 
+                i.lista-ul__vineta                  
+                | % volumen/volumen. Se expresa en centímetros cúbicos (cc) de soluto sobre cc de solución.
+              li.mb-4 
+                i.lista-ul__vineta                  
+                | % peso/volumen. Combina las dos anteriores: gramos de soluto sobre cc de solución.
+      .col-lg-8.d-flex
+        .cajon.color-secundario.p-4.mb-4
+          .h5 Unidades químicas
+          p.mb-4 Son aquellas que se expresan en sistemas de unidades químicas. Por ejemplo:
+          div                                  
+            ul.lista-ul--colors
+              li.mb-4 
+                i.lista-ul__vineta                  
+                | Molaridad (M). Se expresa en número de moles de soluto sobre un litro de solución o un kilogramo de solución. Se calcula de la siguiente manera:
+                div.d-flex.justify-content-center
+                  figure.w-50
+                    img(src='@/assets/curso/tema1/img32.svg', alt='Molaridad')              
+                p Donde n(X) es la cantidad de moles del componente X y Vdisolución es el volumen de la disolución. La molaridad se expresa en moles/L de solución.
+              li.mb-4 
+                i.lista-ul__vineta                  
+                | Molalidad (m). Es la proporción entre el número de moles de cualquier soluto disuelto por kilogramos de disolvente. Se calcula de la siguiente manera:
+                div.d-flex.justify-content-center
+                  figure.w-50
+                    img(src='@/assets/curso/tema1/img33.svg', alt='Molalidad')              
+                p Donde m(X) es la molalidad de X, n(X) es el número de moles de X y masa (disolvente) es la masa de disolvente expresada en kg. Es importante aclarar que la molaridad se expresa por kg (1.000g) de disolvente. Se expresa en unidades de mol/kg (Raffino, 2020).
+    hr.mb-5
+    #t_1_5.titulo-segundo
+      .h4 1.5 Temperatura y presión según el estado
 </template>
 
 <script>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="80" viewBox="0 0 320 80">
+  <g id="Grupo_58937" data-name="Grupo 58937" transform="translate(-688 -8646)">
+    <text id="m_X_" data-name="m(X)" transform="translate(688 8664)" fill="#12263f" font-size="20" font-family="SegoeUIBlack, Segoe UI"><tspan x="0" y="22">m(X)</tspan></text>
+    <text id="n_X_" data-name="n(X)" transform="translate(873 8646)" fill="#12263f" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="10.907" y="22">n(X)</tspan></text>
+    <text id="masa_disolvente_Kg_" data-name="masa (disolvente) (Kg)" transform="translate(795 8689)" fill="#12263f" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="9.229" y="22">masa (disolvente) (Kg)</tspan></text>
+    <text id="_" data-name="=" transform="translate(761 8653)" fill="#e94b46" font-size="36" font-family="SegoeUIBlack, Segoe UI"><tspan x="0" y="39">=</tspan></text>
+    <line id="Línea_145" data-name="Línea 145" x2="212" transform="translate(795.5 8682.5)" fill="none" stroke="#28c8fa" stroke-width="3"/>
+  </g>
+</svg>

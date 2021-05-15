@@ -38,6 +38,24 @@ export default {
             titulo: 'Estado físico',
             hash: 't_1_2',
           },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Productos químicos peligrosos',
+            hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Condiciones de concentración',
+            hash: 't_1_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.5',
+            titulo: 'Temperatura y presión según el estado',
+            hash: 't_1_5',
+          },
         ],
       },
       {
