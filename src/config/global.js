@@ -23,7 +23,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Componentes',
+        titulo: 'Características de los productos químicos',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -62,40 +62,55 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Producción Audiovisual',
+        titulo: 'Peligros y riesgos',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Infografía Animada',
+            titulo: 'Definición de peligros y riesgo',
             hash: 't_2_1',
           },
-        ],
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Muestras',
-        desarrolloContenidos: true,
-        subMenu: [
           {
             icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Muestras',
-            hash: 't_3_1',
+            numero: '2.2',
+            titulo: 'Concepto de dosis',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Vías de ingreso',
+            hash: 't_2_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.4',
+            titulo: 'Exposición a productos químicos',
+            hash: 't_2_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.5',
+            titulo: 'Efectos crónicos y agudos',
+            hash: 't_2_5',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.6',
+            titulo: 'Concepto TLV',
+            hash: 't_2_6',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.7',
+            titulo: 'Ciclo de vida de un producto químico',
+            hash: 't_2_7',
           },
         ],
       },
     ],
     subMenu: [
-      {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -261,49 +276,49 @@ export default {
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Biomagnificación',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Tendencia de algunos productos químicos a acumularse a lo largo de la cadena trófica, exhibiendo concentraciones sucesivamente mayores al ascender el nivel trófico. La concentración del producto en el organismo consumidor es mayor que la concentración del mismo producto en el organismo consumido.',
     },
     {
-      termino: 'Suftware',
+      termino: 'Concentración química',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Cantidad en la que se encuentran las sustancias que se disuelven (soluto) en relación con la o las sustancias que lo disuelven (solvente). En este sentido, la cantidad de soluto siempre será menor al solvente para que se considere una solución.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Exposición aguda',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Contacto hecho entre un agente químico, físico, o biológico y un organismo, durante un período corto de tiempo (normalmente menos de un día).',
     },
     {
-      termino: 'Vectores',
+      termino: 'Exposición crónica',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Contacto hecho entre un agente químico, físico o biológico y un organismo, habitualmente por un largo período de tiempo (normalmente más de un año).',
     },
     {
-      termino: 'Moda',
+      termino: 'Peligro',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Fuente, situación o acto con potencial de causar daño en la salud de los trabajadores, en los equipos o en las instalaciones.',
     },
     {
-      termino: 'Diseño',
+      termino: 'Presión',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'La presión es una magnitud que mide el efecto deformador o capacidad de penetración de una fuerza y se define como la fuerza ejercida por unidad de superficie. Se expresa como: P=F/S.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Riesgo',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Posibilidad de que algo desagradable acontezca. Se asocia generalmente a una decisión que conlleva a una exposición o a un tipo de peligro.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Solución química',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Mezcla homogénea cuyos componentes, llamados soluto y solvente, no pueden ser separados por métodos mecánicos simples (filtración, decantación y centrifugación).',
     },
     {
-      termino: 'Software',
+      termino: 'Temperatura',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Magnitud física que indica la energía interna de un cuerpo, de un objeto o del medio ambiente en general, medida por un termómetro.',
     },
   ],
   complementario: [

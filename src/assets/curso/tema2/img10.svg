@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64.769" height="64.762" viewBox="0 0 64.769 64.762">
+  <g id="_044---Skin-Lifting" data-name="044---Skin-Lifting" transform="translate(0)">
+    <path id="Shape" d="M61.53,19.43H55.053V15.112h1.079a2.159,2.159,0,0,0,1.5-3.71l-6.5-6.5a2.174,2.174,0,0,0-2.978.024L41.7,11.378a2.159,2.159,0,0,0,1.475,3.734h1.079V19.43H37.782V10.794h1.079a2.159,2.159,0,0,0,1.5-3.71l-6.5-6.5a2.175,2.175,0,0,0-2.978.024L24.433,7.06a2.159,2.159,0,0,0,1.475,3.734h1.079V19.43H20.51V15.112H21.59a2.159,2.159,0,0,0,1.5-3.71l-6.5-6.5a2.174,2.174,0,0,0-2.978.024l-6.45,6.453a2.159,2.159,0,0,0,1.475,3.734H9.715V19.43H3.238A3.238,3.238,0,0,0,0,22.669v5.4a2.159,2.159,0,0,0,2.159,2.159H62.61a2.159,2.159,0,0,0,2.159-2.159v-5.4A3.238,3.238,0,0,0,61.53,19.43Zm-18.324-6.5,6.425-6.477,6.51,6.5c-.108.011.419,0-2.168,0a1.079,1.079,0,0,0-1.079,1.079v9.715H46.417V14.033a1.079,1.079,0,0,0-1.079-1.079ZM25.934,8.612l6.425-6.477,6.51,6.5c-.108.011.419,0-2.168,0a1.079,1.079,0,0,0-1.079,1.079V23.748H29.146V9.715a1.079,1.079,0,0,0-1.079-1.079ZM8.663,12.93l6.425-6.477,6.51,6.5c-.108.011.419,0-2.168,0a1.079,1.079,0,0,0-1.079,1.079v9.715H11.874V14.033a1.079,1.079,0,0,0-1.079-1.079ZM62.61,28.066H2.159v-5.4a1.079,1.079,0,0,1,1.079-1.079H9.715v2.159a2.159,2.159,0,0,0,2.159,2.159h6.477a2.159,2.159,0,0,0,2.159-2.159V21.589h6.477v2.159a2.159,2.159,0,0,0,2.159,2.159h6.477a2.159,2.159,0,0,0,2.159-2.159V21.589h6.477v2.159a2.159,2.159,0,0,0,2.159,2.159h6.477a2.159,2.159,0,0,0,2.159-2.159V21.589H61.53a1.079,1.079,0,0,1,1.079,1.079Z" transform="translate(0 -0.006)" fill="#4f8a7f"/>
+    <path id="Shape-2" data-name="Shape" d="M62.784,47.69c-13.252-1.1-19-1.211-33.588,2.144A53.746,53.746,0,0,1,2.738,49.5,2.15,2.15,0,0,0,0,51.578v7.3a2.159,2.159,0,0,0,2.159,2.159H62.61a2.159,2.159,0,0,0,2.159-2.159V49.842a2.174,2.174,0,0,0-1.984-2.152ZM62.61,58.874H2.159V51.581a56.164,56.164,0,0,0,27.52.356c14.04-3.228,19.809-3.2,32.93-2.1Z" transform="translate(0 3.729)" fill="#4f8a7f"/>
+    <path id="Shape-3" data-name="Shape" d="M62.61,30H2.159A2.159,2.159,0,0,0,0,32.159V46.365a2.144,2.144,0,0,0,1.522,2.069,55.668,55.668,0,0,0,28.158.54C43.7,45.746,49.228,45.78,62.424,46.861a2.159,2.159,0,0,0,2.345-2.148V32.159A2.159,2.159,0,0,0,62.61,30Zm0,14.706c-4.352-.353-8.76-.7-12.934-.673-14.537.082-20.78,4.318-33.328,4.318A49.048,49.048,0,0,1,2.159,46.365V32.159H62.61Z" transform="translate(0 2.378)" fill="#4f8a7f"/>
+    <circle id="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(5.398 36.696)" fill="#4f8a7f"/>
+    <circle id="Oval-2" data-name="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(9.716 36.696)" fill="#4f8a7f"/>
+    <circle id="Oval-3" data-name="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(14.033 36.696)" fill="#4f8a7f"/>
+    <circle id="Oval-4" data-name="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(18.351 36.696)" fill="#4f8a7f"/>
+    <circle id="Oval-5" data-name="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(22.669 36.696)" fill="#4f8a7f"/>
+    <circle id="Oval-6" data-name="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(20.51 39.935)" fill="#4f8a7f"/>
+    <circle id="Oval-7" data-name="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(16.192 39.935)" fill="#4f8a7f"/>
+    <circle id="Oval-8" data-name="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(11.874 39.935)" fill="#4f8a7f"/>
+    <circle id="Oval-9" data-name="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(7.557 39.935)" fill="#4f8a7f"/>
+    <circle id="Oval-10" data-name="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(5.398 43.173)" fill="#4f8a7f"/>
+    <circle id="Oval-11" data-name="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(9.716 43.173)" fill="#4f8a7f"/>
+    <circle id="Oval-12" data-name="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(14.033 43.173)" fill="#4f8a7f"/>
+    <circle id="Oval-13" data-name="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(18.351 43.173)" fill="#4f8a7f"/>
+    <circle id="Oval-14" data-name="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(7.557 46.411)" fill="#4f8a7f"/>
+    <circle id="Oval-15" data-name="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(11.874 46.411)" fill="#4f8a7f"/>
+    <circle id="Oval-16" data-name="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(16.192 46.411)" fill="#4f8a7f"/>
+    <circle id="Oval-17" data-name="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(20.51 46.411)" fill="#4f8a7f"/>
+    <circle id="Oval-18" data-name="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(24.828 46.411)" fill="#4f8a7f"/>
+    <circle id="Oval-19" data-name="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(22.669 43.173)" fill="#4f8a7f"/>
+    <circle id="Oval-20" data-name="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(24.828 39.935)" fill="#4f8a7f"/>
+    <circle id="Oval-21" data-name="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(26.987 36.696)" fill="#4f8a7f"/>
+    <circle id="Oval-22" data-name="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(31.305 36.696)" fill="#4f8a7f"/>
+    <circle id="Oval-23" data-name="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(35.623 36.696)" fill="#4f8a7f"/>
+    <circle id="Oval-24" data-name="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(33.464 39.935)" fill="#4f8a7f"/>
+    <circle id="Oval-25" data-name="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(29.146 39.935)" fill="#4f8a7f"/>
+    <circle id="Oval-26" data-name="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(37.782 39.935)" fill="#4f8a7f"/>
+    <circle id="Oval-27" data-name="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(26.987 43.173)" fill="#4f8a7f"/>
+    <circle id="Oval-28" data-name="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(31.305 43.173)" fill="#4f8a7f"/>
+    <circle id="Oval-29" data-name="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(35.623 43.173)" fill="#4f8a7f"/>
+    <circle id="Oval-30" data-name="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(57.212 36.696)" fill="#4f8a7f"/>
+    <circle id="Oval-31" data-name="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(52.895 36.696)" fill="#4f8a7f"/>
+    <circle id="Oval-32" data-name="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(48.577 36.696)" fill="#4f8a7f"/>
+    <circle id="Oval-33" data-name="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(44.259 36.696)" fill="#4f8a7f"/>
+    <circle id="Oval-34" data-name="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(39.941 36.696)" fill="#4f8a7f"/>
+    <circle id="Oval-35" data-name="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(42.1 39.935)" fill="#4f8a7f"/>
+    <circle id="Oval-36" data-name="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(46.418 39.935)" fill="#4f8a7f"/>
+    <circle id="Oval-37" data-name="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(50.736 39.935)" fill="#4f8a7f"/>
+    <circle id="Oval-38" data-name="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(55.053 39.935)" fill="#4f8a7f"/>
+    <circle id="Oval-39" data-name="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(39.941 43.173)" fill="#4f8a7f"/>
+    <circle id="Oval-40" data-name="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(44.259 43.173)" fill="#4f8a7f"/>
+    <circle id="Oval-41" data-name="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(48.577 43.173)" fill="#4f8a7f"/>
+    <circle id="Oval-42" data-name="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(52.895 43.173)" fill="#4f8a7f"/>
+    <circle id="Oval-43" data-name="Oval" cx="1.079" cy="1.079" r="1.079" transform="translate(57.212 43.173)" fill="#4f8a7f"/>
+    <path id="Shape-4" data-name="Shape" d="M55.238,51H53.079a1.079,1.079,0,0,0,0,2.159h2.159a1.079,1.079,0,0,0,0-2.159Z" transform="translate(4.133 4.047)" fill="#4f8a7f"/>
+    <path id="Shape-5" data-name="Shape" d="M50.318,52.079A1.079,1.079,0,0,0,49.238,51H47.079a1.079,1.079,0,1,0,0,2.159h2.159A1.079,1.079,0,0,0,50.318,52.079Z" transform="translate(3.656 4.047)" fill="#4f8a7f"/>
+    <path id="Shape-6" data-name="Shape" d="M44.318,52.079A1.079,1.079,0,0,0,43.238,51H41.079a1.079,1.079,0,0,0,0,2.159h2.159A1.079,1.079,0,0,0,44.318,52.079Z" transform="translate(3.179 4.047)" fill="#4f8a7f"/>
+    <path id="Shape-7" data-name="Shape" d="M38.318,52.079A1.079,1.079,0,0,0,37.238,51H35.079a1.079,1.079,0,1,0,0,2.159h2.159A1.079,1.079,0,0,0,38.318,52.079Z" transform="translate(2.702 4.047)" fill="#4f8a7f"/>
+    <path id="Shape-8" data-name="Shape" d="M52.238,54H50.079a1.079,1.079,0,0,0,0,2.159h2.159a1.079,1.079,0,1,0,0-2.159Z" transform="translate(3.895 4.286)" fill="#4f8a7f"/>
+    <path id="Shape-9" data-name="Shape" d="M46.238,54H44.079a1.079,1.079,0,0,0,0,2.159h2.159a1.079,1.079,0,1,0,0-2.159Z" transform="translate(3.418 4.286)" fill="#4f8a7f"/>
+    <path id="Shape-10" data-name="Shape" d="M40.238,54H38.079a1.079,1.079,0,1,0,0,2.159h2.159a1.079,1.079,0,1,0,0-2.159Z" transform="translate(2.941 4.286)" fill="#4f8a7f"/>
+    <path id="Shape-11" data-name="Shape" d="M34.238,54H32.079a1.079,1.079,0,1,0,0,2.159h2.159a1.079,1.079,0,0,0,0-2.159Z" transform="translate(2.464 4.286)" fill="#4f8a7f"/>
+    <path id="Shape-12" data-name="Shape" d="M28.238,54H26.079a1.079,1.079,0,0,0,0,2.159h2.159a1.079,1.079,0,0,0,0-2.159Z" transform="translate(1.987 4.286)" fill="#4f8a7f"/>
+    <path id="Shape-13" data-name="Shape" d="M22.238,54H20.079a1.079,1.079,0,0,0,0,2.159h2.159a1.079,1.079,0,0,0,0-2.159Z" transform="translate(1.51 4.286)" fill="#4f8a7f"/>
+    <path id="Shape-14" data-name="Shape" d="M16.238,54H14.079a1.079,1.079,0,0,0,0,2.159h2.159a1.079,1.079,0,0,0,0-2.159Z" transform="translate(1.033 4.286)" fill="#4f8a7f"/>
+    <path id="Shape-15" data-name="Shape" d="M10.238,54H8.079a1.079,1.079,0,1,0,0,2.159h2.159a1.079,1.079,0,0,0,0-2.159Z" transform="translate(0.557 4.286)" fill="#4f8a7f"/>
+  </g>
+</svg>
