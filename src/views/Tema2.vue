@@ -25,7 +25,14 @@
         figure
           img(src='@/assets/curso/tema2/img01.svg', alt='Peligro')          
       .col-lg-2
+
+    .row.mb-4
+      .col-lg-2
+      .col-lg-8.d-flex.align-items-end.justify-content-center
+        p.text-center Ahora, se debe observar la imagen y escribir cuál es el peligro y cuál es el riesgo.             
+      .col-lg-2
     
+
     br
     
     .row.mb-4
@@ -89,7 +96,7 @@
     p.mb-4 Con el fin de facilitar la apropiación del concepto, se plantea un caso de la cotidianidad:
 
     .mb-4.div-color-sistema-c      
-      .row.mb-4      
+      .row.mb-4.pt-4      
         .col-1
         .col-md-5.d-flex.align-items-center.justify-content-center
           div
@@ -173,67 +180,70 @@
 
     p.mb-4 Cada una de estas sustancias o productos químicos pueden ingresar al organismo a través de cuatro vías:
 
-    TabsB.mb-5
-      .py-0.py-md-5(titulo="Vía respiratoria" :icono="require('@/assets/curso/tema2/img08.svg')")
-        .row
-          .col-md-1
-          .col-md-6.mb-4.mb-md-0.d-flex.align-items-center            
-            div                    
-              .h4 Vía respiratoria        
-              p.mb-4 Es la principal vía de ingreso de los productos químicos en el organismo, por eso son tan importantes los controles de exposición de esta vía.
-              p.mb-4 El sistema respiratorio está formado por nariz, boca, laringe, bronquios, bronquiolos y alvéolos pulmonares. Esta es la vía de penetración de sustancias tóxicas más importante en el ámbito laboral. 
-              p.mb-4 Cualquier sustancia suspendida en el ambiente puede ser inhalada, pero solo las partículas que posean un tamaño adecuado llegarán a los alvéolos. También influirá su solubilidad en los fluidos del sistema respiratorio en los que se deposita. 
-              p.mb-4 La cantidad total de un contaminante absorbida por vía respiratoria está en función de la concentración en el ambiente, del tiempo de exposición y de la ventilación pulmonar.
-          .col-md-1
-          .col-md-3.d-flex.align-items-center  
-            figure
-              img(src='@/assets/curso/tema2/img09.svg', alt='Sólido')              
-          .col-md-1
+    .row.mb-5
+      .col-1
+      .col-10
+        TabsB
+          .py-0.py-md-5(titulo="Vía respiratoria" :icono="require('@/assets/curso/tema2/img08.svg')")
+            .row
+              .col-md-1
+              .col-md-6.mb-4.mb-md-0.d-flex.align-items-center            
+                div                    
+                  .h4 Vía respiratoria        
+                  p.mb-4 Es la principal vía de ingreso de los productos químicos en el organismo, por eso son tan importantes los controles de exposición de esta vía.
+                  p.mb-4 El sistema respiratorio está formado por nariz, boca, laringe, bronquios, bronquiolos y alvéolos pulmonares. Esta es la vía de penetración de sustancias tóxicas más importante en el ámbito laboral. 
+                  p.mb-4 Cualquier sustancia suspendida en el ambiente puede ser inhalada, pero solo las partículas que posean un tamaño adecuado llegarán a los alvéolos. También influirá su solubilidad en los fluidos del sistema respiratorio en los que se deposita. 
+                  p.mb-4 La cantidad total de un contaminante absorbida por vía respiratoria está en función de la concentración en el ambiente, del tiempo de exposición y de la ventilación pulmonar.
+              .col-md-1
+              .col-md-3.d-flex.align-items-center  
+                figure
+                  img(src='@/assets/curso/tema2/img09.svg', alt='Sólido')              
+              .col-md-1
 
-      .py-0.py-md-5(titulo="Vía dérmica" :icono="require('@/assets/curso/tema2/img10.svg')")
-        .row
-          .col-md-1
-          .col-md-6.mb-4.mb-md-0.d-flex.align-items-center            
-            div                    
-              .h4 Vía dérmica        
-              p.mb-4 Muchas sustancias son capaces de atravesar la piel en estado normal, alcanzar los capilares sanguíneos e incorporarse a la sangre, para ser distribuidas, de este modo, por todo el cuerpo (figura 6).
-              p.mb-4 Es de anotar que la temperatura, la sudoración y la integridad de la piel pueden influir en la absorción de tóxicos a través de la piel.
-              p.mb-4 En este caso es muy importante resaltar que los contactos con sustancias químicas se deben prevenir usando ropas aislantes como overoles, delantales, guantes y otros tipos de protección adicionales a las medidas de control de ingeniería.
-              p.mb-4 Existen sustancias para las cuales la piel es permeable como: n-butanol, 2-butoxietanol, tolueno.
-          .col-md-1
-          .col-md-3.d-flex.align-items-center  
-            figure
-              img(src='@/assets/curso/tema2/img11.svg', alt='Sólido')              
-          .col-md-1
+          .py-0.py-md-5(titulo="Vía dérmica" :icono="require('@/assets/curso/tema2/img10.svg')")
+            .row
+              .col-md-1
+              .col-md-6.mb-4.mb-md-0.d-flex.align-items-center            
+                div                    
+                  .h4 Vía dérmica        
+                  p.mb-4 Muchas sustancias son capaces de atravesar la piel en estado normal, alcanzar los capilares sanguíneos e incorporarse a la sangre, para ser distribuidas, de este modo, por todo el cuerpo (figura 6).
+                  p.mb-4 Es de anotar que la temperatura, la sudoración y la integridad de la piel pueden influir en la absorción de tóxicos a través de la piel.
+                  p.mb-4 En este caso es muy importante resaltar que los contactos con sustancias químicas se deben prevenir usando ropas aislantes como overoles, delantales, guantes y otros tipos de protección adicionales a las medidas de control de ingeniería.
+                  p.mb-4 Existen sustancias para las cuales la piel es permeable como: n-butanol, 2-butoxietanol, tolueno.
+              .col-md-1
+              .col-md-3.d-flex.align-items-center  
+                figure
+                  img(src='@/assets/curso/tema2/img11.svg', alt='Sólido')              
+              .col-md-1
 
-      .py-0.py-md-5(titulo="Vía parenteral" :icono="require('@/assets/curso/tema2/img12.svg')")
-        .row
-          .col-md-1
-          .col-md-6.mb-4.mb-md-0.d-flex.align-items-center            
-            div                    
-              .h4 Vía parenteral         
-              p.mb-4 Se debe tener en cuenta que la penetración directa de una sustancia química en el organismo puede ser a través de una discontinuidad de la piel (herida o punción, figura 7). Esta se presenta generalmente por manipulación de sustancia sin los Elementos de Protección Personal (EPP) o por el uso inadecuado.
-              p.mb-4 Esta vía de ingreso, aunque no es la más frecuente en los ambientes laborales, sí debe considerarse como una de las más nocivas, debido a que las discontinuidades de la piel permiten que los productos químicos pasen directamente al torrente sanguíneo, donde es transportado por la sangre a todo el cuerpo y alcanza con mayor rapidez órganos blandos.
-          .col-md-1
-          .col-md-3.d-flex.align-items-center  
-            figure
-              img(src='@/assets/curso/tema2/img13.svg', alt='Sólido')              
-          .col-md-1
+          .py-0.py-md-5(titulo="Vía parenteral" :icono="require('@/assets/curso/tema2/img12.svg')")
+            .row
+              .col-md-1
+              .col-md-6.mb-4.mb-md-0.d-flex.align-items-center            
+                div                    
+                  .h4 Vía parenteral         
+                  p.mb-4 Se debe tener en cuenta que la penetración directa de una sustancia química en el organismo puede ser a través de una discontinuidad de la piel (herida o punción, figura 7). Esta se presenta generalmente por manipulación de sustancia sin los Elementos de Protección Personal (EPP) o por el uso inadecuado.
+                  p.mb-4 Esta vía de ingreso, aunque no es la más frecuente en los ambientes laborales, sí debe considerarse como una de las más nocivas, debido a que las discontinuidades de la piel permiten que los productos químicos pasen directamente al torrente sanguíneo, donde es transportado por la sangre a todo el cuerpo y alcanza con mayor rapidez órganos blandos.
+              .col-md-1
+              .col-md-3.d-flex.align-items-center  
+                figure
+                  img(src='@/assets/curso/tema2/img13.svg', alt='Sólido')              
+              .col-md-1
 
-      .py-0.py-md-5(titulo="Vía digestiva" :icono="require('@/assets/curso/tema2/img14.svg')")
-        .row
-          .col-md-1
-          .col-md-6.mb-4.mb-md-0.d-flex.align-items-center            
-            div                    
-              .h4 Vía digestiva        
-              p.mb-4 El sistema digestivo está formado por boca, estómago e intestinos (figura 8). Aunque esta vía de ingreso pareciera de poca importancia, en higiene industrial es frecuente en operarios que tienen el hábito de comer y beber en el puesto de trabajo.
-              p.mb-4 Como medida de prevención al ingreso de sustancias químicas por esta vía, se recomienda establecer políticas de no consumo de alimentos en los lugares de trabajo, no usar las neveras para reactivos o los cuartos fríos de productos químicos para refrigerar alimentos y mantener un frecuente lavado de manos, especialmente antes de tomar los alimentos.
-          .col-md-1
-          .col-md-3.d-flex.align-items-center  
-            figure
-              img(src='@/assets/curso/tema2/img15.svg', alt='Sólido')              
-          .col-md-1
-  
+          .py-0.py-md-5(titulo="Vía digestiva" :icono="require('@/assets/curso/tema2/img14.svg')")
+            .row
+              .col-md-1
+              .col-md-6.mb-4.mb-md-0.d-flex.align-items-center            
+                div                    
+                  .h4 Vía digestiva        
+                  p.mb-4 El sistema digestivo está formado por boca, estómago e intestinos (figura 8). Aunque esta vía de ingreso pareciera de poca importancia, en higiene industrial es frecuente en operarios que tienen el hábito de comer y beber en el puesto de trabajo.
+                  p.mb-4 Como medida de prevención al ingreso de sustancias químicas por esta vía, se recomienda establecer políticas de no consumo de alimentos en los lugares de trabajo, no usar las neveras para reactivos o los cuartos fríos de productos químicos para refrigerar alimentos y mantener un frecuente lavado de manos, especialmente antes de tomar los alimentos.
+              .col-md-1
+              .col-md-3.d-flex.align-items-center  
+                figure
+                  img(src='@/assets/curso/tema2/img15.svg', alt='Sólido')              
+              .col-md-1
+      
     br
 
     #t_2_4.titulo-segundo
@@ -266,7 +276,7 @@
 
     .tarjeta-Avatar-b.mb-4
           img.mb-5(src='@/assets/curso/tema2/img17.svg' alt='img05')
-          .tarjeta.color-primario.p-4
+          .tarjeta.fondo-celeste.p-4
             .h4 Exposición aguda 
             p.mb-4 Una exposición aguda es aquella que produce alteraciones en la salud de manera inmediata o en muy corto tiempo después de la exposición. Por ejemplo, un contacto de la piel con soda cáustica, produce una lesión que se siente casi inmediatamente después y genera un dolor intenso, dependiendo de la cantidad de sustancia, el área de la piel afectada y la concentración del producto químico. También se puede apreciar la necrosis de la piel, el desprendimiento de vapores, calor en la parte afectada y, en términos generales, la lesión es muy notoria y el dolor intenso.
             p.mb-4 Las exposiciones agudas en el medio laboral se enmarcan dentro de los accidentes de trabajo, toda vez que, como en todo accidente, los efectos son adversos, evidentes y producen efectos sobre la salud del trabajador en el desarrollo de sus actividades.
@@ -274,7 +284,7 @@
     br
     .tarjeta-Avatar-b.mb-5
           img(src='@/assets/curso/tema2/img18.svg' alt='img05')
-          .tarjeta.color-primario.p-4
+          .tarjeta.fondo-celeste.p-4
             .h4 Exposiciones crónicas  
             p.mb-4 De otro lado, las exposiciones crónicas son aquellas en las que la exposición se da en bajas dosis, pero en repetidas ocasiones y, por lo general, en largos periodos de trabajo. Por ejemplo, la exposición a fibras de asbesto de un trabajador no produce efectos inmediatos, pero sí acumulativos. Esto quiere decir que la enfermedad producida por la exposición a fibras de asbesto, se manifestará en trabajadores que llevan algunos años de exposición.
 
@@ -300,10 +310,10 @@
 
     p.mb-4 Los TLV para agentes químicos, expresan concentraciones en aire de diversas sustancias por debajo de las cuales la mayoría de los trabajadores puede exponerse sin sufrir efectos adversos. Se admite que, dada la variabilidad de respuestas individuales, un porcentaje de trabajadores pueda experimentar ligeras molestias ante ciertas sustancias en estas concentraciones o por debajo de ellas, incluso en casos raros, puedan verse afectados por agravamiento de dolencias previas o por la aparición de enfermedades profesionales. Debido a los variados efectos que los productos químicos pueden provocar en las personas expuestas, se definen diferentes tipos de valores TLV.
     
-    div.mb-4.w-100.div-color-primario2.text-center.p-3 
-      h5.div-color-primario2.m-1 Tipos de valores TLV
+    div.mb-4.w-100.fondo-verder.text-center.p-3 
+      h5.fondo-verder.m-1 Tipos de valores TLV
     
-    .row.mb-4.border
+    .row.mb-4
       .col-md-4.d-flex
         .cajon.color-primario.p-4
           strong TLV-TW: 
@@ -333,7 +343,7 @@
     p.mb-4 Los efectos colaterales de los productos químicos no se limitan solamente a probables exposiciones a las que se ve enfrentado un trabajador en el momento de usar el producto químico. Los efectos se dan en todos los momentos en los que el producto es activo, es decir, en todo su ciclo de vida.
     p.mb-4 La idea de “ciclo de vida” se introdujo para evaluar las características ambientales de los productos químicos, y considera cinco etapas básicas: premanufactura, manufactura, envío del producto, uso y fin de su vida útil.
 
-    figure.mb-4
+    figure.mb-4.fondo-gris
       img(src='@/assets/curso/tema2/img21.svg', alt='Sólido')
 
     p.mb-4 Dicha evaluación permite contar con productos con menores impactos ambientales, pero sin que se omitan las características deseadas en la productividad. El reto para los profesionales de la química sería, entonces, el desarrollo de nuevos productos, procesos y servicios que cumplan con los requerimientos sociales, económicos y ambientales.

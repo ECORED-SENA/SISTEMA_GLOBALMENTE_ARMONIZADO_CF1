@@ -12,16 +12,50 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)      
 
-    p.mb-4 Bienvenido al curso Aplicación del Sistema Globalmente Armonizado (SGA) en el manejo de productos químicos. Este curso tiene como propósito brindar los conceptos básicos y fundamentales para la comprensión del manejo de productos químicos de acuerdo con los lineamientos de SGA.
- 
+    p.mb-4 Bienvenido al curso Aplicación del Sistema Globalmente Armonizado (SGA) en el manejo de productos químicos. Este curso tiene como propósito brindar los conceptos básicos y fundamentales para la comprensión del manejo de productos químicos de acuerdo con los lineamientos de SGA. 
     p.mb-5 Al finalizar el curso se estará en capacidad de tomar decisiones sobre el manejo seguro de los productos químicos basados en la adecuada interpretación de la información que ofrece el Sistema Globalmente Armonizado. Adicionalmente, (SGA) se refuerzan muchos conceptos que permiten hacer una lectura eficiente de las Hojas de Datos de Seguridad (HDS), lo permitirá tomar las medidas de prevención y de protección que sean necesarias.
 
+    hr 
+    br
     #t_1_1.titulo-segundo
       .h4 1.1 Definición de productos químicos
 
     p.mb-4 Para iniciar, se muestran cuatro (4) figuras que se deben observar cuidadosamente y responder la siguiente pregunta:
+    
+    .row.mb-4 
+      .col-4.d-flex.align-items-center.justify-content-center
+        .div
+          h4 ¿En cuál o en cuáles de esas imagenes hay productos químicos?
+          p Seguramente la respuesta es que en tres (3) hay productos químicos; sin embargo, la respuesta correcta sería en las cuatro (4) figuras.<br><br> Es de recordar que el agua es el producto final de una reacción química, H2O, y esta aparece en grandes cantidades en la figura 3, incluso los seres vivos que aparecen allí están compuestos por sustancias químicas. ',
+      .col-8
+        #carouselExampleIndicators.carousel.slide.mb-5(data-bs-ride='carousel')
+          .carousel-indicators
+            button.active(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
+            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='1' aria-label='Slide 2')
+            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='2' aria-label='Slide 3')
+          .carousel-inner
+            .carousel-item.active
+              figure
+                img(src='@/assets/curso/tema1/img01.png', alt='Texto que describa la imagen')          
+            .carousel-item
+              figure
+                img(src='@/assets/curso/tema1/img02.png', alt='Texto que describa la imagen')           
+            .carousel-item
+              figure
+                img(src='@/assets/curso/tema1/img03.png', alt='Texto que describa la imagen')         
+            .carousel-item
+              figure
+                img(src='@/assets/curso/tema1/img04.png', alt='Texto que describa la imagen')                      
+          
+          button.carousel-control-prev(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='prev')
+            span.carousel-control-prev-icon(aria-hidden='true')
+            span.visually-hidden Previous
+          button.carousel-control-next(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='next')
+            span.carousel-control-next-icon(aria-hidden='true')
+            span.visually-hidden Next
+       
 
-    SlyderB.mb-4(:datos="datosSlyder")
+    
 
     p.mb-4 A continuación, se presentan definiciones y conceptos que permitirán tener más claridad sobre este tema.
 
@@ -33,30 +67,32 @@
     p.mb-4 En los productos químicos se encuentran:
     br
     .row
-      .col-lg-2
+      .col-lg-1
       .col-lg-10
         .tarjeta-Avatar-b.mb-5
           img(src='@/assets/curso/tema1/img05.svg' alt='img05')
           .tarjeta.color-primario.p-4
             .h4 Los orgánicos
             p Los cuales contienen carbono. Aunque se encuentran presentes por lo general en organismos vivos (por ejemplo, DNA, hormonas, proteínas, grasas), la industria ha producido cientos de miles de compuestos orgánicos sintéticos (por ejemplo, el insecticida DDT, el polímero cloruro de polivinilo o PVC).
+      .col-lg-1
     .row
-      .col-lg-2
+      .col-lg-1
       .col-lg-10
         .tarjeta-Avatar-b.mb-5
           img(src='@/assets/curso/tema1/img06.svg' alt='img05')
           .tarjeta.color-primario.p-4
             .h4 Los inorgánicos
             p Los cuales no contienen carbono. Existen miles de productos químicos naturales, sintéticos (por ejemplo, bórax, cloro, ácido sulfúrico) y compuestos metálicos (por ejemplo, cloruro de sodio, más conocido como sal de mesa).
+      .col-lg-1
     .row.mb-4
-      .col-lg-2
+      .col-lg-1
       .col-lg-10
         .tarjeta-Avatar-b.mb-5
           img(src='@/assets/curso/tema1/img07.svg' alt='img05')
           .tarjeta.color-primario.p-4
             .h4 Los compuestos organometálicos 
             p Son los que contienen tanto metales como carbono (por ejemplo, el tetraetilo de plomo se utilizó ampliamente como mejorador de octano en la gasolina para motores) (Pnuma, 2013). 
-    
+      .col-lg-1 
     p.mb-4 Esto significa que todo lo que está y rodea la Tierra, materialmente, se clasifica como producto químico, en virtud de su composición. 
 
     p.mb-4 Al observar los objetos que se encuentran alrededor, se pueden identificar las sustancias químicas que los componen. En algunos casos no se conocen los nombres científicos de los productos químicos que constituyen cada uno de esos objetos, pero aun así se identifican grandes grupos, por ejemplo, plásticos, comestibles, medicamentos, varios tipos telas, madera, aire y muchos más.
@@ -74,63 +110,71 @@
     .row.mb-4
       .col-lg-2        
       .col-lg-2
-        figure.mb-5
-          img(src='@/assets/curso/tema1/img08.svg', alt='Solido')          
+        figure.mb-4
+          img(src='@/assets/curso/tema1/img08.svg', alt='Solido')   
+        h5.text-center Sólido       
       .col-lg-1
       .col-lg-2
-        figure.mb-5
+        figure.mb-4
           img(src='@/assets/curso/tema1/img09.svg', alt='Liquido')    
+        h5.text-center Líquido 
       .col-lg-1
       .col-lg-2
-        figure.mb-5
+        figure.mb-4
           img(src='@/assets/curso/tema1/img10.svg', alt='Gaseoso')    
+        h5.text-center Gaseoso
       .col-lg-2
 
     p.mb-4 El estado de la materia se relaciona con la proximidad que tienen las partículas que componen un producto químico entre sí. Esa proximidad se facilita con las fuerzas de cohesión entre las partículas, con su densidad y su respuesta a la fuerza de gravedad.
 
-    p A continuación, se analizará cada uno de estos estados:
-   
-    TabsB.mb-4
-      .py-4.py-md-5(titulo="Sólido" :icono="require('@/assets/curso/tema1/img12.svg')")
-        .row
-          .col-md-6.mb-4.mb-md-0
-            .h4 Estado sólido
-            p Se refiere a una estructura física muy bien definida. Esto ocurre debido a las fuerzas de cohesión entre las partículas responsables de mantener estables la forma y el volumen del sólido, y de otorgarle cierto margen de dureza y de resistencia. Lo anterior quiere decir que los productos sólidos mantienen su forma independientemente de la forma del contenedor o del espacio en el que se encuentren. Algunos ejemplos de productos sólidos son las rocas, la madera, las telas, el papel y el polvo (Raffino, 2020).
-          .col-md-6
-            figure
-              img(src='@/assets/curso/tema1/img11.svg', alt='Sólido')              
+    p.mb-4.text-center 
+      strong A continuación, se analizará cada uno de estos estados:
 
-      .py-4.py-md-5(titulo="Líquido" :icono="require('@/assets/curso/tema1/img13.svg')")
-        .row
-          .col-md-6.mb-4.mb-md-0
-            .h4 Estado líquido
-            p Se refiere a las partículas que están más separadas que las de un compuesto sólido, pero más juntas que las de un compuesto gaseoso. Por esta razón los compuestos sólidos son rígidos y los gases son dispersos.
-            br
-            p Los productos líquidos se depositan en el fondo del contenedor que los retenga y adoptan la forma de ese contenedor desde abajo hacia arriba. 
-            br
-            p El ejemplo más usado para los líquidos es el agua, pero también se puede referir a otros como la gasolina, el aceite lubricante e, incluso, a alimentos como los jugos.
-          .col-md-6
-            figure
-              img(src='@/assets/curso/tema1/img16.svg', alt='Líquido')              
+    .row
+      .col-1
+      .col-10
+        TabsB.mb-4
+          .py-4.py-md-5(titulo="Sólido" :icono="require('@/assets/curso/tema1/img12.svg')")
+            .row
+              .col-md-6.mb-4.mb-md-0
+                .h4 Estado sólido
+                p Se refiere a una estructura física muy bien definida. Esto ocurre debido a las fuerzas de cohesión entre las partículas responsables de mantener estables la forma y el volumen del sólido, y de otorgarle cierto margen de dureza y de resistencia. Lo anterior quiere decir que los productos sólidos mantienen su forma independientemente de la forma del contenedor o del espacio en el que se encuentren. Algunos ejemplos de productos sólidos son las rocas, la madera, las telas, el papel y el polvo (Raffino, 2020).
+              .col-md-6
+                figure
+                  img(src='@/assets/curso/tema1/img11.svg', alt='Sólido')              
 
-      .py-4.py-md-5(titulo="Gaseoso" :icono="require('@/assets/curso/tema1/img14.svg')")
-        .row
-          .col-md-6.mb-4.mb-md-0
-            .h4 Estado gaseoso
-            p Se refiere a los productos químicos que se caracterizan por tener sus partículas constitutivas poco unidas entre sí, o sea, expandidas a lo largo del contenedor donde se encuentren, hasta ocupar el máximo espacio disponible.
-            br
-            p Las propiedades mencionadas anteriormente, se deben a que las partículas que componen a los gases presentan entre sí una fuerza de atracción muy leve, y por esta razón no tienen forma ni ocupan un volumen definido en el espacio. Por otra parte, la densidad de los gases es mucho menor que la de los sólidos y los líquidos, y tienen, además, muy poca respuesta a la gravedad.
-            br
-            p Debido a la poca interacción entre las partículas, los gases, se encuentran suspendidos con muy poca influencia de la gravedad (se puede decir que “flotan”). 
-            br
-            p Además, a pesar de su cohesión casi nula, los gases presentan una enorme capacidad para ser comprimidos, lo que a menudo se lleva a cabo durante su tratamiento industrial para el transporte.
-            br
-            p Uno de los ejemplos más utilizados es el mismo aire, pero también se encuentran muchos gases que industrialmente son comprimidos para poderlos transportar, como el argón, el acetileno, el oxígeno o el propano
+          .py-4.py-md-5(titulo="Líquido" :icono="require('@/assets/curso/tema1/img13.svg')")
+            .row
+              .col-md-6.mb-4.mb-md-0
+                .h4 Estado líquido
+                p Se refiere a las partículas que están más separadas que las de un compuesto sólido, pero más juntas que las de un compuesto gaseoso. Por esta razón los compuestos sólidos son rígidos y los gases son dispersos.
+                br
+                p Los productos líquidos se depositan en el fondo del contenedor que los retenga y adoptan la forma de ese contenedor desde abajo hacia arriba. 
+                br
+                p El ejemplo más usado para los líquidos es el agua, pero también se puede referir a otros como la gasolina, el aceite lubricante e, incluso, a alimentos como los jugos.
+              .col-md-6
+                figure
+                  img(src='@/assets/curso/tema1/img16.svg', alt='Líquido')              
 
-          .col-md-6
-            figure
-              img(src='@/assets/curso/tema1/img15.svg', alt='Gaseoso')              
-    
+          .py-4.py-md-5(titulo="Gaseoso" :icono="require('@/assets/curso/tema1/img14.svg')")
+            .row
+              .col-md-6.mb-4.mb-md-0
+                .h4 Estado gaseoso
+                p Se refiere a los productos químicos que se caracterizan por tener sus partículas constitutivas poco unidas entre sí, o sea, expandidas a lo largo del contenedor donde se encuentren, hasta ocupar el máximo espacio disponible.
+                br
+                p Las propiedades mencionadas anteriormente, se deben a que las partículas que componen a los gases presentan entre sí una fuerza de atracción muy leve, y por esta razón no tienen forma ni ocupan un volumen definido en el espacio. Por otra parte, la densidad de los gases es mucho menor que la de los sólidos y los líquidos, y tienen, además, muy poca respuesta a la gravedad.
+                br
+                p Debido a la poca interacción entre las partículas, los gases, se encuentran suspendidos con muy poca influencia de la gravedad (se puede decir que “flotan”). 
+                br
+                p Además, a pesar de su cohesión casi nula, los gases presentan una enorme capacidad para ser comprimidos, lo que a menudo se lleva a cabo durante su tratamiento industrial para el transporte.
+                br
+                p Uno de los ejemplos más utilizados es el mismo aire, pero también se encuentran muchos gases que industrialmente son comprimidos para poderlos transportar, como el argón, el acetileno, el oxígeno o el propano
+
+              .col-md-6
+                figure
+                  img(src='@/assets/curso/tema1/img15.svg', alt='Gaseoso')              
+      .col-1
+
     p.mb-4 Los productos químicos pueden cambiar su estado de materia, es decir, pueden pasar de estado líquido a estado sólido o gaseoso. 
     p Se debe tener en cuenta que cada cambio de estado requiere unas condiciones especiales de temperatura.
     p.mb-4 En la figura se pueden observar estos cambios de estado. 
@@ -193,7 +237,7 @@
     p.mb-4 Para ilustrar esta parte, se debe analizar el siguiente caso de la vida cotidiana, donde la química tiene aplicación:
  
     .row.mb-4
-      .col-md-3
+      .col-md-3.d-flex.align-items-center
         figure
           img(src='@/assets/curso/tema1/img19.svg', alt='')  
       .col-md-9.d-flex.align-items-center
@@ -208,8 +252,9 @@
 
     .row.mb-4
       .col-md-5
-        figure
-          img(src='@/assets/curso/tema1/img20.svg', alt='')  
+        figure.mb-4
+          img(src='@/assets/curso/tema1/img20.svg', alt='')          
+        h4.text-center Solución = Solvente + Soluto
       .col-md-1
       .col-md-6.d-flex.align-items-center
         div
@@ -227,37 +272,38 @@
         div
           figure
             img(src='@/assets/curso/tema1/img21.svg', alt='')   
-        div.border.color-primario.d-flex.align-items-center.justify-content-center.mb-4         
+        div.color-primario.d-flex.align-items-center.justify-content-center.mb-4         
           h6.text-center.my-2 Diluidas
         p.text-center Cuando la cantidad de soluto respecto al solvente es muy pequeña. Por ejemplo: 1 gramo de azúcar en 100 gramos de agua.
       .col-md-3
         div
           figure
             img(src='@/assets/curso/tema1/img22.svg', alt='')            
-        div.border.color-secundario.d-flex.align-items-center.justify-content-center.mb-4         
+        div.color-secundario.d-flex.align-items-center.justify-content-center.mb-4         
           h6.my-2 Concentradas
         p.text-center Cuando la cantidad de soluto respecto al solvente es grande. Por ejemplo: 25 gramos de azúcar en 100 gramos de agua.
       .col-md-3
         div
           figure
             img(src='@/assets/curso/tema1/img23.svg', alt='')            
-        div.border.color-acento-botones.d-flex.align-items-center.justify-content-center.mb-4        
+        div.color-acento-botones.d-flex.align-items-center.justify-content-center.mb-4        
           h6.my-2 Saturadas        
         p.text-center Cuando el solvente no acepta ya más soluto a una determinada temperatura. Por ejemplo: 36 gramos de azúcar en 100 gramos de agua a 20 °C.      
       .col-md-3
         div
           figure
             img(src='@/assets/curso/tema1/img24.svg', alt='')    
-        div.border.color-acento-contenido.d-flex.align-items-center.justify-content-center.mb-4         
+        div.color-acento-contenido.d-flex.align-items-center.justify-content-center.mb-4         
           h6.my-2 Sobresaturadas          
         p.text-center Como la saturación tiene que ver con la temperatura, si se incrementa la temperatura, se puede forzar al solvente a tomar más soluto del que ordinariamente puede, obteniendo una solución sobresaturada (saturada en exceso). Así, sometida a un calentamiento, la solución tomará mucho más soluto del que ordinariamente podría contener (Raffino, 2020). 
-
-      a.anexo.mb-4.mb-lg-0.milink(href="http://quimicabiologianutricional.blogspot.com/2016/10/usos-y-aplicaciones-de-las-soluciones.html" target="_blank")
-        .anexo__icono
-          img(src="@/assets/curso/tema1/icono-link.svg")
-        .anexo__texto
-          strong Para ampliar la información se recomienda consultar el siguiente enlace 
-          p Biología, (2016). Usos y aplicaciones de las soluciones farmacéuticas.
+    br
+    a.anexo.mb-4.mb-lg-0.milink(href="http://quimicabiologianutricional.blogspot.com/2016/10/usos-y-aplicaciones-de-las-soluciones.html" target="_blank")
+      .anexo__icono
+        img(src="@/assets/curso/tema1/icono-link.svg")
+      .anexo__texto
+        strong Para ampliar la información se recomienda consultar el siguiente enlace 
+        p Biología, (2016). Usos y aplicaciones de las soluciones farmacéuticas.
+    
     br
     p.mb-4 Siguiendo a Raffino (2020), también se pueden clasificar por el estado de agregación o estado físico.
 
@@ -390,7 +436,7 @@
     #t_1_5.titulo-segundo
       .h4 1.5 Temperatura y presión según el estado
     
-    .row.mb-4
+    .row.mb-5
       .col-lg-8  
         p.mb-4 Los productos químicos se ven afectados por factores externos a su propia constitución y dentro de esos factores externos, los más importantes son la presión y temperatura. Por ejemplo, en las características que tiene un litro de agua, se nota que es muy diferente cuando este se encuentra a temperatura ambiente a cuando el mismo litro de agua, se encuentra en ebullición (hirviendo). Por esta razón, es necesario tener una idea general de los cambios que puede presentar la materia en virtud de la temperatura a la que está expuesta.
         p La temperatura es una magnitud escalar que se define como la cantidad de energía cinética de las partículas de una masa gaseosa, líquida o sólida; así que cuanto mayor es la velocidad de las partículas, mayor es la temperatura y viceversa.
@@ -481,8 +527,14 @@
             img(src='@/assets/curso/tema1/img39.svg', alt='p/t')                        
       .col-lg-3
     br
-    p La presión de un volumen fijo de gas, es directamente proporcional a su temperatura, es decir que, al aumentar la temperatura, las moléculas del gas se mueven más rápidamente y por tanto aumenta el número de choques contra las paredes, es decir aumenta la presión ya que el recipiente es de paredes fijas y su volumen no puede cambiar.
-    p Donde P es presión, T es temperatura y k es una constante (Raffino, 2020).
+    p.mb-4  La presión de un volumen fijo de gas, es directamente proporcional a su temperatura, es decir que, al aumentar la temperatura, las moléculas del gas se mueven más rápidamente y por tanto aumenta el número de choques contra las paredes, es decir aumenta la presión ya que el recipiente es de paredes fijas y su volumen no puede cambiar.
+    p Donde 
+      strong P 
+      | es presión, 
+      strong T 
+      | es temperatura y 
+      strong k 
+      | es una constante (Raffino, 2020).
 
 </template>
 
@@ -490,32 +542,7 @@
 export default {
   name: 'Tema1',
   data: () => ({
-    datosSlyder: [
-      {
-        titulo: '¿En cuál o en cuáles de esas imagenes hay productos químicos?',
-        texto:
-          'Seguramente la respuesta es que en tres (3) hay productos químicos; sin embargo, la respuesta correcta sería en las cuatro (4) figuras.<br><br> Es de recordar que el agua es el producto final de una reacción química, H2O, y esta aparece en grandes cantidades en la figura 3, incluso los seres vivos que aparecen allí están compuestos por sustancias químicas. ',
-        imagen: require('@/assets/curso/tema1/img01.png'),
-      },
-      {
-        titulo: '¿En cuál o en cuáles de esas imagenes hay productos químicos?',
-        texto:
-          'Seguramente la respuesta es que en tres (3) hay productos químicos; sin embargo, la respuesta correcta sería en las cuatro (4) figuras.<br><br> Es de recordar que el agua es el producto final de una reacción química, H2O, y esta aparece en grandes cantidades en la figura 3, incluso los seres vivos que aparecen allí están compuestos por sustancias químicas. ',
-        imagen: require('@/assets/curso/tema1/img02.png'),
-      },
-      {
-        titulo: '¿En cuál o en cuáles de esas imagenes hay productos químicos?',
-        texto:
-          'Seguramente la respuesta es que en tres (3) hay productos químicos; sin embargo, la respuesta correcta sería en las cuatro (4) figuras.<br><br> Es de recordar que el agua es el producto final de una reacción química, H2O, y esta aparece en grandes cantidades en la figura 3, incluso los seres vivos que aparecen allí están compuestos por sustancias químicas. ',
-        imagen: require('@/assets/curso/tema1/img03.png'),
-      },
-      {
-        titulo: '¿En cuál o en cuáles de esas imagenes hay productos químicos?',
-        texto:
-          'Seguramente la respuesta es que en tres (3) hay productos químicos; sin embargo, la respuesta correcta sería en las cuatro (4) figuras.<br><br> Es de recordar que el agua es el producto final de una reacción química, H2O, y esta aparece en grandes cantidades en la figura 3, incluso los seres vivos que aparecen allí están compuestos por sustancias químicas. ',
-        imagen: require('@/assets/curso/tema1/img04.png'),
-      },
-    ],
+    // variables de vue
   }),
 }
 </script>

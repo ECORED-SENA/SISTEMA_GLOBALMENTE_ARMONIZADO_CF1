@@ -1,21 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="151" height="172" viewBox="0 0 151 172">
-  <g id="Grupo_58924" data-name="Grupo 58924" transform="translate(-612 -3181)">
-    <text id="Líquido" transform="translate(612 3321)" fill="#12263f" font-size="18" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="43.692" y="19">Líquido</tspan></text>
-    <g id="Grupo_55668" data-name="Grupo 55668" transform="translate(363 -2429)">
-      <g id="Elipse_4293" data-name="Elipse 4293" transform="translate(262 5610)" fill="#fff" stroke="#69d1ff" stroke-width="5">
-        <circle cx="63" cy="63" r="63" stroke="none"/>
-        <circle cx="63" cy="63" r="60.5" fill="none"/>
-      </g>
-      <circle id="Elipse_4309" data-name="Elipse 4309" cx="9.5" cy="9.5" r="9.5" transform="translate(293 5641)" fill="#69d1ff"/>
-      <circle id="Elipse_4299" data-name="Elipse 4299" cx="9.5" cy="9.5" r="9.5" transform="translate(285 5664)" fill="#69d1ff"/>
-      <circle id="Elipse_4294" data-name="Elipse 4294" cx="9.5" cy="9.5" r="9.5" transform="translate(298 5683)" fill="#69d1ff"/>
-      <circle id="Elipse_4305" data-name="Elipse 4305" cx="9.5" cy="9.5" r="9.5" transform="translate(307 5658)" fill="#69d1ff"/>
-      <circle id="Elipse_4311" data-name="Elipse 4311" cx="9.5" cy="9.5" r="9.5" transform="translate(321 5641)" fill="#69d1ff"/>
-      <circle id="Elipse_4306" data-name="Elipse 4306" cx="9.5" cy="9.5" r="9.5" transform="translate(324 5667)" fill="#69d1ff"/>
-      <circle id="Elipse_4296" data-name="Elipse 4296" cx="9.5" cy="9.5" r="9.5" transform="translate(317 5686)" fill="#69d1ff"/>
-      <circle id="Elipse_4313" data-name="Elipse 4313" cx="9.5" cy="9.5" r="9.5" transform="translate(343 5645)" fill="#69d1ff"/>
-      <circle id="Elipse_4303" data-name="Elipse 4303" cx="9.5" cy="9.5" r="9.5" transform="translate(346 5666)" fill="#69d1ff"/>
-      <circle id="Elipse_4298" data-name="Elipse 4298" cx="9.5" cy="9.5" r="9.5" transform="translate(340 5686)" fill="#69d1ff"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="126" height="126" viewBox="0 0 126 126">
+  <g id="Grupo_55667" data-name="Grupo 55667" transform="translate(-262 -5991)">
+    <g id="Elipse_4314" data-name="Elipse 4314" transform="translate(262 5991)" fill="#fff" stroke="#fad228" stroke-width="5">
+      <circle cx="63" cy="63" r="63" stroke="none"/>
+      <circle cx="63" cy="63" r="60.5" fill="none"/>
+    </g>
+    <g id="Grupo_55673" data-name="Grupo 55673">
+      <circle id="Elipse_4315" data-name="Elipse 4315" cx="9.5" cy="9.5" r="9.5" transform="translate(288 6011)" fill="#fad228"/>
+      <circle id="Elipse_4319" data-name="Elipse 4319" cx="9.5" cy="9.5" r="9.5" transform="translate(270 6041)" fill="#fad228"/>
+      <circle id="Elipse_4322" data-name="Elipse 4322" cx="9.5" cy="9.5" r="9.5" transform="translate(279 6068)" fill="#fad228"/>
+      <circle id="Elipse_4318" data-name="Elipse 4318" cx="9.5" cy="9.5" r="9.5" transform="translate(298 6041)" fill="#fad228"/>
+      <circle id="Elipse_4316" data-name="Elipse 4316" cx="9.5" cy="9.5" r="9.5" transform="translate(319 6001)" fill="#fad228"/>
+      <circle id="Elipse_4321" data-name="Elipse 4321" cx="9.5" cy="9.5" r="9.5" transform="translate(326 6030)" fill="#fad228"/>
+      <circle id="Elipse_4323" data-name="Elipse 4323" cx="9.5" cy="9.5" r="9.5" transform="translate(307 6087)" fill="#fad228"/>
+      <circle id="Elipse_4317" data-name="Elipse 4317" cx="9.5" cy="9.5" r="9.5" transform="translate(351 6018)" fill="#fad228"/>
+      <circle id="Elipse_4320" data-name="Elipse 4320" cx="9.5" cy="9.5" r="9.5" transform="translate(358 6046)" fill="#fad228"/>
+      <circle id="Elipse_4327" data-name="Elipse 4327" cx="9.5" cy="9.5" r="9.5" transform="translate(326 6063)" fill="#fad228"/>
+      <circle id="Elipse_4324" data-name="Elipse 4324" cx="9.5" cy="9.5" r="9.5" transform="translate(351 6074)" fill="#fad228"/>
     </g>
   </g>
 </svg>
