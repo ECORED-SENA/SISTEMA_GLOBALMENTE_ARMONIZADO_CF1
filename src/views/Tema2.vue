@@ -56,7 +56,7 @@
                   img(src='@/assets//curso/tema2/img03.svg', alt='Texto que describa la imagen')          
             .h4.text-center En el caso del término “peligro”, este se identifica como:
             div
-              ul.lista-ul--colors
+              ul.lista-ul--color
                 li.mb-4 
                   i.lista-ul__vineta                  
                   | Fuente, situación o acto con potencial de daño en términos de enfermedad o lesión a las personas o una combinación de esto (NTC-Ohsas 18001). 
@@ -75,7 +75,7 @@
               
             .h4.text-center Para el término “riesgo”, se presentan las siguientes definiciones:
             div
-              ul.lista-ul--colors
+              ul.lista-ul--color
                 li.mb-4 
                   i.lista-ul__vineta                  
                   | Es la combinación de la probabilidad de que ocurra(n) un (os) evento(s) o exposición peligrosa, y la severidad de la lesión o enfermedad que puede ser causado por el (los) evento(s) o la(s) exposición (es) (NTC-Ohsas 18001).
@@ -165,12 +165,12 @@
             .col-lg-8
               .bloque-texto-a__texto.p-4
                 h5 Es así como:
-                ul.lista-ul--colors
+                ul.lista-ul--color
                   li.mb-4 
-                    i.lista-ul__vineta                  
+                    i.lista-ul__vineta.vineta-verde                  
                     | Una “dosis de exposición” es la cantidad de una sustancia que se encuentra en el medioambiente. 
                   li.mb-4 
-                    i.lista-ul__vineta                  
+                    i.lista-ul__vineta.vineta-verde                     
                     | Una “dosis absorbida” es la cantidad de sustancia que ha entrado realmente en el cuerpo a través de los ojos, la piel, el estómago, los intestinos o los pulmones.
       .col-1
     hr    

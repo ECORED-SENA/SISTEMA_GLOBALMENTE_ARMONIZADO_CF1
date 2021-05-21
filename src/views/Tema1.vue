@@ -189,29 +189,34 @@
           p Los cambios de estado que requieren aumento en la temperatura, son:
           br
           ul.lista-ul.mb-4
-            li
-              p  
-                strong.fas.fa-angle-right La fusión:
+            li 
+              i.fas.fa-angle-right
+              p 
+                strong La fusión: 
                 | es el cambio de un estado sólido a líquido de la misma materia. 
             li 
-              p             
-                strong.fas.fa-angle-right La vaporización: 
+              i.fas.fa-angle-right
+              p 
+                strong  La vaporización: 
                 | es el cambio de estado líquido a gaseoso.
-            li  
-              p            
-                strong.fas.fa-angle-right La volatización o sublimación progresiva: 
+            li 
+              i.fas.fa-angle-right
+              p 
+                strong  La volatización o sublimación progresiva: 
                 |es el cambio de estado sólido a gaseoso.
           
           p Ahora, los cambios de estado que requieren disminución de la temperatura, son:
           br
           ul.lista-ul.mb-4
-            li
-              p  
-                strong.fas.fa-angle-right La condensación: 
+            li 
+              i.fas.fa-angle-right
+              p 
+                strong La condensación: 
                 | se presenta cuando un gas pasa a estado líquido.
-            li  
-              p  
-                strong.fas.fa-angle-right La solidificación: 
+            li 
+              i.fas.fa-angle-right
+              p 
+                strong La solidificación: 
                 | sucede cuando un líquido pasa a estado sólido. Cuando un gas pasa a estado sólido se presenta una sublimación regresiva.
     hr.mb-5
 
@@ -314,22 +319,25 @@
           .col-md-6.mb-4.mb-md-0.d-flex.align-items-center            
             div                    
               .h4 Sólidas          
-              ul.lista-ul--colors
-                li.mb-4 
+              ul.lista-ul--color
+                li 
                   i.lista-ul__vineta
-                  strong Sólido en sólido: 
-                  | los dos componentes de la solución están en estado sólido, es decir, tanto el soluto como el disolvente se encuentran en estado sólido. Por ejemplo: las aleaciones como el latón (cobre y zinc, ).
-                li.mb-4 
+                  p 
+                    strong Sólido en sólido: 
+                    | los dos componentes de la solución están en estado sólido, es decir, tanto el soluto como el disolvente se encuentran en estado sólido. Por ejemplo: las aleaciones como el latón (cobre y zinc, ).
+                li 
                   i.lista-ul__vineta
-                  strong  Gas en sólido: 
-                  | en este caso el soluto es un gas y el disolvente es un sólido. Por ejemplo: hidrógeno en paladio, polvo volcánico, entre otros.
-                li.mb-4 
+                  p 
+                    strong  Gas en sólido: 
+                    | en este caso el soluto es un gas y el disolvente es un sólido. Por ejemplo: hidrógeno en paladio, polvo volcánico, entre otros.
+                li 
                   i.lista-ul__vineta
-                  strong  Líquido en sólido: 
-                  | en este caso el soluto es un líquido y el disolvente es un sólido. Por ejemplo: las amalgamas (mercurio y plata).
+                  p 
+                    strong  Líquido en sólido: 
+                    | en este caso el soluto es un líquido y el disolvente es un sólido. Por ejemplo: las amalgamas (mercurio y plata).
 
           .col-md-1
-          .col-md-3
+          .col-md-3.d-flex.align-items-center     
             figure
               img(src='@/assets/curso/tema1/img28.svg', alt='Sólido')              
           .col-md-1
@@ -340,23 +348,26 @@
           .col-md-6.mb-4.mb-md-0.d-flex.align-items-center            
             div                    
               .h4 Líquidas
-              ul.lista-ul--colors
-                li.mb-4 
+              ul.lista-ul--color
+                li 
                   i.lista-ul__vineta
-                  strong Sólido en líquido: 
-                  | este es el caso más conocido y en él, por lo general, se disuelven pequeñas cantidades de sólido (soluto) en un líquido (disolvente). Por ejemplo: azúcar disuelto en agua.
-                li.mb-4 
+                  p 
+                    strong Sólido en líquido: 
+                    | este es el caso más conocido y en él, por lo general, se disuelven pequeñas cantidades de sólido (soluto) en un líquido (disolvente). Por ejemplo: azúcar disuelto en agua.
+                li 
                   i.lista-ul__vineta
-                  strong Gas en líquido: 
-                  | en este caso se disuelve un gas (soluto) en un líquido (disolvente). Por ejemplo: el oxígeno disuelto en el agua de mar, que es responsable de la vida acuática en el planeta
-                li.mb-4 
+                  p 
+                    strong Gas en líquido: 
+                    | en este caso se disuelve un gas (soluto) en un líquido (disolvente). Por ejemplo: el oxígeno disuelto en el agua de mar, que es responsable de la vida acuática en el planeta
+                li 
                   i.lista-ul__vineta
-                  strong Líquido en líquido: 
-                  | tanto el soluto como el disolvente son líquidos. Por ejemplo: las amalgamas (mercurio y plata).                  
+                  p 
+                    strongg Líquido en líquido: 
+                    | tanto el soluto como el disolvente son líquidos. Por ejemplo: las amalgamas (mercurio y plata).                  
           .col-md-1
-          .col-md-3
-            figure
-              img(src='@/assets/curso/tema1/img30.svg', alt='Líquido')              
+          .col-md-3.d-flex.align-items-center        
+              figure
+                img(src='@/assets/curso/tema1/img30.svg', alt='Líquido')              
           .col-md-1
 
       .py-4.py-md-5(titulo="Gaseosas" :icono="require('@/assets/curso/tema1/img27.svg')")
@@ -365,22 +376,25 @@
           .col-md-6.mb-4.mb-md-0.d-flex.align-items-center            
             div                    
               .h4 Gaseosas
-              ul.lista-ul--colors
-                li.mb-4 
+              ul.lista-ul--color
+                li 
                   i.lista-ul__vineta
-                  strong Sólido en gas: 
-                  | en este caso el soluto es un gas y el disolvente es un sólido. Por ejemplo: polvo disuelto en aire. La cantidad de polvo disuelta en el aire es tomada como referencia en la evaluación de contaminación ambiental                  
-                li.mb-4 
+                  p 
+                    strong Sólido en gas: 
+                    | en este caso el soluto es un gas y el disolvente es un sólido. Por ejemplo: polvo disuelto en aire. La cantidad de polvo disuelta en el aire es tomada como referencia en la evaluación de contaminación ambiental                  
+                li 
                   i.lista-ul__vineta
-                  strong Gas en gas: 
-                  | tanto el soluto como el disolvente son gases. En muchas ocasiones estas disoluciones se asumen como mezclas debido a las débiles interacciones entre las partículas de los gases. Por ejemplo: oxígeno en aire.                                  
-                li.mb-4 
+                  p 
+                    strong Gas en gas: 
+                    | tanto el soluto como el disolvente son gases. En muchas ocasiones estas disoluciones se asumen como mezclas debido a las débiles interacciones entre las partículas de los gases. Por ejemplo: oxígeno en aire.                                  
+                li 
                   i.lista-ul__vineta
-                  strong Líquido en gas: 
-                  | aquí el soluto es un líquido y el disolvente es un gas. Por ejemplo: vapor de agua en el aire (Raffino, 2020).
+                  p 
+                    strong Líquido en gas: 
+                    | aquí el soluto es un líquido y el disolvente es un gas. Por ejemplo: vapor de agua en el aire (Raffino, 2020).
                   
           .col-md-1
-          .col-md-3
+          .col-md-3.d-flex.align-items-center     
             figure
               img(src='@/assets/curso/tema1/img29.svg', alt='Líquido')              
           .col-md-1
@@ -402,9 +416,9 @@
           .h5 Unidades físicas          
           p.mb-4 Son aquellas que se expresan en relación al peso y al volumen de la solución, en forma porcentual (se multiplican por 100). 
           div                                  
-            ul.lista-ul--colors
-              li.mb-4 
-                i.lista-ul__vineta                  
+            ul.lista-ul--color
+              li 
+                i.lista-ul__vineta                                 
                 | % peso/peso. Se expresa en gramos de soluto sobre gramos de solución.
               li.mb-4 
                 i.lista-ul__vineta                  
@@ -417,21 +431,23 @@
           .h5 Unidades químicas
           p.mb-4 Son aquellas que se expresan en sistemas de unidades químicas. Por ejemplo:
           div                                  
-            ul.lista-ul--colors
-              li.mb-4 
-                i.lista-ul__vineta                  
-                | Molaridad (M). Se expresa en número de moles de soluto sobre un litro de solución o un kilogramo de solución. Se calcula de la siguiente manera:
-                div.d-flex.justify-content-center
-                  figure.w-50
-                    img(src='@/assets/curso/tema1/img32.svg', alt='Molaridad')              
-                p Donde n(X) es la cantidad de moles del componente X y Vdisolución es el volumen de la disolución. La molaridad se expresa en moles/L de solución.
-              li.mb-4 
-                i.lista-ul__vineta                  
-                | Molalidad (m). Es la proporción entre el número de moles de cualquier soluto disuelto por kilogramos de disolvente. Se calcula de la siguiente manera:
-                div.d-flex.justify-content-center
-                  figure.w-50
-                    img(src='@/assets/curso/tema1/img33.svg', alt='Molalidad')              
-                p Donde m(X) es la molalidad de X, n(X) es el número de moles de X y masa (disolvente) es la masa de disolvente expresada en kg. Es importante aclarar que la molaridad se expresa por kg (1.000g) de disolvente. Se expresa en unidades de mol/kg (Raffino, 2020).
+            ul.lista-ul--color
+              li 
+                i.lista-ul__vineta         
+                div         
+                  p.mb-4  Molaridad (M). Se expresa en número de moles de soluto sobre un litro de solución o un kilogramo de solución. Se calcula de la siguiente manera:                
+                  div.d-flex.justify-content-center
+                    figure.w-50.mb-4 
+                      img(src='@/assets/curso/tema1/img32.svg', alt='Molaridad') 
+                  p.mb-4  Donde n(X) es la cantidad de moles del componente X y Vdisolución es el volumen de la disolución. La molaridad se expresa en moles/L de solución.
+              li
+                i.lista-ul__vineta         
+                div                   
+                  p.mb-4  Molalidad (m). Es la proporción entre el número de moles de cualquier soluto disuelto por kilogramos de disolvente. Se calcula de la siguiente manera:                  
+                  div.d-flex.justify-content-center
+                    figure.w-50.mb-4 
+                      img(src='@/assets/curso/tema1/img33.svg', alt='Molalidad')              
+                  p Donde m(X) es la molalidad de X, n(X) es el número de moles de X y masa (disolvente) es la masa de disolvente expresada en kg. Es importante aclarar que la molaridad se expresa por kg (1.000g) de disolvente. Se expresa en unidades de mol/kg (Raffino, 2020).
     hr.mb-5
     #t_1_5.titulo-segundo
       .h4 1.5 Temperatura y presión según el estado
@@ -452,7 +468,7 @@
     .row.mb-4
       .col-lg-6.d-flex.align-items-center    
         div                                  
-          ul.lista-ul--colors
+          ul.lista-ul--color
             li.mb-4 
               i.lista-ul__vineta                  
               | En la escala Celsius, el punto de congelación del agua equivale a 0 °C (cero grados centígrados) y su punto de ebullición a 100 °C.
@@ -487,17 +503,56 @@
     p.mb-4 Otras unidades de medición de la presión incluyen el bar (10 N/cm3), la atm o atmósfera (equivalente a unos 101.325 pa), el Torr (equivalente a 133,32 pa), y los milímetros de mercurio (mmHg). 
     br
 
-    .row.mb-4    
+    .row.mb-4   
       .col-lg-2
-      .col-lg-8.d-flex.align-items-center    
-        figure
-          img(src='@/assets/curso/tema1/img37.svg', alt='Tabla')                        
+      .col-lg-8  
+        .row.celda-verde1
+          .col-12.d-flex.align-items-center.justify-content-center
+            .h6.my-3.celda-verde1 UNIDADES DE PRESIÓN  
+        .row.celda-verde2
+          .col-4.d-flex.align-items-center.justify-content-center 
+            .h6.my-2 Unidad
+          .col-1.d-flex.align-items-center.justify-content-center 
+            .h6.my-2 Símbolo
+          .col-7.d-flex.align-items-center.justify-content-center 
+            .h6.my-2 Equivalencia
+        .row.celda-verde3
+          .col-4.py-4.d-flex.align-items-center.justify-content-center.celda-azul1 
+            .p.my-2 Atmósfera
+          .col-1.d-flex.align-items-center.justify-content-center 
+            .p.my-2 atm
+          .col-7.d-flex.align-items-center.justify-content-center 
+            .p.my-2 1 atm = 1 kgf/cm2
+        .row.celda-verde3
+          .col-4.py-4.d-flex.align-items-center.justify-content-center.celda-azul1 
+            .p.my-2 Pascal
+          .col-1.d-flex.align-items-center.justify-content-center 
+            .p.my-2 Pa
+          .col-7.d-flex.align-items-center.justify-content-center 
+            .p.my-2 1 Pa = 1 N/m²
+        .row.celda-verde3
+          .col-4.py-4.d-flex.align-items-center.justify-content-center.celda-azul1 
+            .p.my-2 Bar
+          .col-1.d-flex.align-items-center.justify-content-center 
+            .p.my-2 bar
+          .col-7.d-flex.align-items-center.justify-content-center 
+            .p.my-2 1 bar =105  Pa = 105  N/m² = 0,987 atm = 750 mmHg    
+        .row.celda-verde3
+          .col-4.py-4.d-flex.align-items-center.justify-content-center.celda-azul1 
+            .p.my-2 Milímetro de mercurio
+          .col-1.d-flex.align-items-center.justify-content-center 
+            .p.my-2 mmHg
+          .col-7.d-flex.align-items-center.justify-content-center 
+            .p.my-2 1 mmHg = 01.0013 bar 
+        
+        p.border Nota. Tomada de María (s.f).                 
       .col-lg-2
+     
     br
     .row.mb-4
       .col-lg-6.d-flex.align-items-center
         div
-          ul.lista-ul--colors
+          ul.lista-ul--color
             li.mb-4 
               i.lista-ul__vineta                  
               | Presión absoluta: es la que se ejerce sobre un cuerpo por la acción de algún elemento, más la presión atmosférica que sufre (todos cuerpos en el planeta están sometidos a la presión atmosférica).
