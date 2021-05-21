@@ -26,7 +26,7 @@
       .col-4.d-flex.align-items-center.justify-content-center
         .div
           h4 ¿En cuál o en cuáles de esas imagenes hay productos químicos?
-          p Seguramente la respuesta es que en tres (3) hay productos químicos; sin embargo, la respuesta correcta sería en las cuatro (4) figuras.<br><br> Es de recordar que el agua es el producto final de una reacción química, H2O, y esta aparece en grandes cantidades en la figura 3, incluso los seres vivos que aparecen allí están compuestos por sustancias químicas. ',
+          p Seguramente la respuesta es que en tres (3) hay productos químicos; sin embargo, la respuesta correcta sería en las cuatro (4) figuras.<br><br> Es de recordar que el agua es el producto final de una reacción química, H2O, y esta aparece en grandes cantidades en la figura 3, incluso los seres vivos que aparecen allí están compuestos por sustancias químicas.
       .col-8
         #carouselExampleIndicators.carousel.slide.mb-5(data-bs-ride='carousel')
           .carousel-indicators
@@ -504,50 +504,41 @@
     br
 
     .row.mb-4   
-      .col-lg-2
-      .col-lg-8  
-        .row.celda-verde1
-          .col-12.d-flex.align-items-center.justify-content-center
-            .h6.my-3.celda-verde1 UNIDADES DE PRESIÓN  
-        .row.celda-verde2
-          .col-4.d-flex.align-items-center.justify-content-center 
-            .h6.my-2 Unidad
-          .col-1.d-flex.align-items-center.justify-content-center 
-            .h6.my-2 Símbolo
-          .col-7.d-flex.align-items-center.justify-content-center 
-            .h6.my-2 Equivalencia
-        .row.celda-verde3
-          .col-4.py-4.d-flex.align-items-center.justify-content-center.celda-azul1 
-            .p.my-2 Atmósfera
-          .col-1.d-flex.align-items-center.justify-content-center 
-            .p.my-2 atm
-          .col-7.d-flex.align-items-center.justify-content-center 
-            .p.my-2 1 atm = 1 kgf/cm2
-        .row.celda-verde3
-          .col-4.py-4.d-flex.align-items-center.justify-content-center.celda-azul1 
-            .p.my-2 Pascal
-          .col-1.d-flex.align-items-center.justify-content-center 
-            .p.my-2 Pa
-          .col-7.d-flex.align-items-center.justify-content-center 
-            .p.my-2 1 Pa = 1 N/m²
-        .row.celda-verde3
-          .col-4.py-4.d-flex.align-items-center.justify-content-center.celda-azul1 
-            .p.my-2 Bar
-          .col-1.d-flex.align-items-center.justify-content-center 
-            .p.my-2 bar
-          .col-7.d-flex.align-items-center.justify-content-center 
-            .p.my-2 1 bar =105  Pa = 105  N/m² = 0,987 atm = 750 mmHg    
-        .row.celda-verde3
-          .col-4.py-4.d-flex.align-items-center.justify-content-center.celda-azul1 
-            .p.my-2 Milímetro de mercurio
-          .col-1.d-flex.align-items-center.justify-content-center 
-            .p.my-2 mmHg
-          .col-7.d-flex.align-items-center.justify-content-center 
-            .p.my-2 1 mmHg = 01.0013 bar 
-        
-        p.border Nota. Tomada de María (s.f).                 
-      .col-lg-2
-     
+      .col-lg-1
+      .col-lg-10
+        .tabla-b.color-primario
+          .tabla-b__header
+            .h6.mb-0 UNIDADES DE PRESIÓN
+          table
+            caption.blanco.m-0.pt-3.px-1 
+              strong Nota. 
+              | Tomada de María (s.f).            
+            thead.celda-verde2.text-center
+              tr
+                th.w-25 Unidad
+                th Símbolo
+                th.w-65 Equivalencia
+            tbody.text-center.border
+              tr.border
+                td.celda-azul1 Atmósfera
+                td.border atm
+                td 1 atm = 1 kgf/cm2
+              tr.border
+                td.celda-azul1 Pascal
+                td.border Pa
+                td 1 Pa = 1 N/m²
+              tr.border
+                td.celda-azul1 Bar
+                td.border bar
+                td 1 bar =105  Pa = 105  N/m² = 0,987 atm = 750 mmHg
+              tr.border
+                td.celda-azul1.m-2 Milímetro de mercurio
+                td.border mmHg
+                td 1 mmHg = 01.0013 bar 
+                
+      .col-lg-1
+    br
+    p.mb-4 Existen diferentes tipos de presión, las cuales se han clasificado de la siguiente manera, según Raffino (2020):
     br
     .row.mb-4
       .col-lg-6.d-flex.align-items-center
