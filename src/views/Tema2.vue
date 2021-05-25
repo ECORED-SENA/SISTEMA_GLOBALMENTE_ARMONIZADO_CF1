@@ -150,7 +150,7 @@
         .bloque-texto-b.transparente.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
-            span.h2.mb-0 Toda sustancia es tóxica, no hay ninguna que no sea tóxica; es la DOSIS la que hace la diferencia entre una sustancia tóxica y una no tóxica
+            span.h4.mb-0 Toda sustancia es tóxica, no hay ninguna que no sea tóxica; es la DOSIS la que hace la diferencia entre una sustancia tóxica y una no tóxica
             i.fas.fa-quote-right
       .col-2
     
@@ -250,7 +250,7 @@
       .h4 2.4 Exposición a productos químicos
 
     p.mb-4 Las exposiciones a productos químicos tienen diversos efectos, sin embargo, los efectos que no se evidencian inmediatamente después de la exposición suelen ser subestimados, dado que no son percibidos como peligrosos por los individuos expuestos y porque se desconoce su carácter acumulativo.
-    p.mb-4 En lo que se refiere a una sustancia potencialmente tóxica, dependiendo de la exposición puede establecerse un gradiente en el cual se observa que si no hay exposición (cero dosis) no hay efecto. A medida que se incrementa la dosis pueden empezar a aparecer efectos bioquímicos, los cuales se transforman en efectos fisiológicos si esta sigue aumentando; sin embargo, ambos efectos pueden pasar desapercibidos si no se cuentan con técnicas y equipos que permitan ponerlos de manifiesto.
+    p.mb-4 En lo que se refiere a una sustancia potencialmente tóxica, dependiendo de la exposición puede establecerse un gradiente en el cual se observa que si no hay exposición (cero dosis) no hay efecto. A medida que se incrementa la dosis pueden empezar a aparecer efectos bioquímicos, los cuales se transforman en efectos fisiológicos si esta sigue aumentando; sin embargo, ambos efectos pueden pasar desapercibidos si no se cuenta con técnicas y equipos que permitan ponerlos de manifiesto.
 
     .row.mb-4
       .col-md-2
@@ -367,7 +367,7 @@
         .div
           figure.mb-4
             img(src='@/assets/curso/tema2/img22.svg', alt='')
-          a.w-80.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+          a.w-80.anexo.mb-4(:href="('https://quimicoglobal.mx/ciclo-de-vida-productos-quimicos/#:~:text=El%20concepto%20de%20ciclo%20de,fin%20de%20su%20vida%20%C3%BAtil')" target="_blank")
             .anexo__icono
               img(src="@/assets/curso/tema2/icono-pdf.svg")
             .anexo__texto
@@ -379,7 +379,7 @@
     .row.mb-5
       .col-5.d-flex.align-items-center
         .div
-          p.mb-4 La biomagnificación se da cuando los depredadores ubicados en los niveles superiores de la cadena alimentaria consumen fauna o flora contaminada y adquieren cargas corporales muy altas de ciertos productos químicos que pueden causarles serios daños, incluidos defectos congénitos y disfunciones reproductivas.
+          p.mb-4 La <strong>biomagnificación</strong> se da cuando los depredadores ubicados en los niveles superiores de la cadena alimentaria consumen fauna o flora contaminada y adquieren cargas corporales muy altas de ciertos productos químicos que pueden causarles serios daños, incluidos defectos congénitos y disfunciones reproductivas.
           p Es por esta situación que en los últimos decenios se ha prestado cada vez mayor atención al tratamiento de los riesgos que entrañan las sustancias persistentes, bioacumulativos y tóxicas debido a que la amplia exposición a dichas sustancias puede ocurrir durante largos períodos –afectando generaciones de seres humanos– y causar efectos tóxicos. Ejemplos de estos productos químicos son los Contaminantes Orgánicos Persistentes (COP) y ciertos compuestos de metales como el mercurio.
       .col-7.d-flex.align-items-center.justify-content-center
         .div

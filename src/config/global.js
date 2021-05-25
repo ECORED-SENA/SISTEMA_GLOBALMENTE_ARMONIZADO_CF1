@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Productos químicos                             ',
     descripcionCurso:
-      'Los productos químicos en la vida actual juegan un importante papel en las actividades cotidianas, es por eso que hacer un uso adecuado y seguro de ellos es cada día más necesario. ',
+      'Los productos químicos en la vida actual juegan un importante papel en las actividades cotidianas, es por eso que hacer un uso adecuado y seguro de ellos es cada día más necesario. <br> En este componente formativo se hace una introducción a los conceptos generales necesarios, para hacer una buena apropiación de saberes respecto del manejo seguro de dichos productos enmarcados en el Sistema Globalmente Armonizado (SGA) de clasificación y etiquetado de productos químicos, cubriendo todas las fases del ciclo de vida. Los términos y conceptos que este apartado presenta son herramienta fundamental para darle una utilidad práctica a los lineamientos del SGA, que ha sido adoptado en Colombia como sistema de comunicación de peligros químicos a través del Decreto 1496 de 2018.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },

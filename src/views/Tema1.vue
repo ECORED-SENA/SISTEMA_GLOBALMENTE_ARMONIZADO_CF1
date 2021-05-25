@@ -25,7 +25,7 @@
     .row.mb-4 
       .col-4.d-flex.align-items-center.justify-content-center
         .div
-          h4 ¿En cuál o en cuáles de esas imagenes hay productos químicos?
+          h4 ¿En cuál o en cuáles de esas imágenes hay productos químicos?
           p Seguramente la respuesta es que en tres (3) hay productos químicos; sin embargo, la respuesta correcta sería en las cuatro (4) figuras.<br><br> Es de recordar que el agua es el producto final de una reacción química, H2O, y esta aparece en grandes cantidades en la figura 3, incluso los seres vivos que aparecen allí están compuestos por sustancias químicas.
       .col-8
         #carouselExampleIndicators.carousel.slide.mb-5(data-bs-ride='carousel')
@@ -162,7 +162,7 @@
                 .h4 Estado gaseoso
                 p Se refiere a los productos químicos que se caracterizan por tener sus partículas constitutivas poco unidas entre sí, o sea, expandidas a lo largo del contenedor donde se encuentren, hasta ocupar el máximo espacio disponible.
                 br
-                p Las propiedades mencionadas anteriormente, se deben a que las partículas que componen a los gases presentan entre sí una fuerza de atracción muy leve, y por esta razón no tienen forma ni ocupan un volumen definido en el espacio. Por otra parte, la densidad de los gases es mucho menor que la de los sólidos y los líquidos, y tienen, además, muy poca respuesta a la gravedad.
+                p Las propiedades mencionadas anteriormente, se deben a que las partículas que componen a los gases presentan entre sí una fuerza de atracción muy leve, y por esta razón no tienen forma, ni ocupan un volumen definido en el espacio. Por otra parte, la densidad de los gases es mucho menor que la de los sólidos y los líquidos, y tienen, además, muy poca respuesta a la gravedad.
                 br
                 p Debido a la poca interacción entre las partículas, los gases, se encuentran suspendidos con muy poca influencia de la gravedad (se puede decir que “flotan”). 
                 br
@@ -193,17 +193,17 @@
               i.fas.fa-angle-right
               p 
                 strong La fusión: 
-                | es el cambio de un estado sólido a líquido de la misma materia. 
+                |  Es el cambio de un estado sólido a líquido de la misma materia. 
             li 
               i.fas.fa-angle-right
               p 
                 strong  La vaporización: 
-                | es el cambio de estado líquido a gaseoso.
+                |  Es el cambio de estado líquido a gaseoso.
             li 
               i.fas.fa-angle-right
               p 
                 strong  La volatización o sublimación progresiva: 
-                |es el cambio de estado sólido a gaseoso.
+                | Es el cambio de estado sólido a gaseoso.
           
           p Ahora, los cambios de estado que requieren disminución de la temperatura, son:
           br
@@ -212,12 +212,12 @@
               i.fas.fa-angle-right
               p 
                 strong La condensación: 
-                | se presenta cuando un gas pasa a estado líquido.
+                |  Se presenta cuando un gas pasa a estado líquido.
             li 
               i.fas.fa-angle-right
               p 
                 strong La solidificación: 
-                | sucede cuando un líquido pasa a estado sólido. Cuando un gas pasa a estado sólido se presenta una sublimación regresiva.
+                |  Sucede cuando un líquido pasa a estado sólido. Cuando un gas pasa a estado sólido se presenta una sublimación regresiva.
     hr.mb-5
 
     #t_1_3.titulo-segundo
@@ -248,9 +248,9 @@
       .col-md-9.d-flex.align-items-center
         div
           p.mb-4 Cuando ofrecen una taza de café y quien lo toma dice que está muy “cargado”, lo lógico es que solicite “rebajarlo” un poco, agregando agua.           
-          p.mb-4 Cuando se dice que el café está cargado en realidad se está hablando de una alta concentración de café en la taza y cuando se agrega agua a la taza se está bajando la concentración, es decir, se está diluyendo el café. Entonces, un tinto es una solución de café y azúcar en agua.             
+          p.mb-4 Cuando se dice que el café está cargado en realidad se está hablando de una alta <cite> concentración </cite> de café en la taza y cuando se agrega agua a la taza se está bajando la concentración, es decir, se está <cite> diluyendo </cite> el café. Entonces, un tinto es una solución de café y azúcar en agua.             
           p.mb-4 Algunas personas, prefieren una solución concentrada (cargado) y otras lo prefieren diluido (clarito). De esta manera, la proporción de café, azúcar y agua hacen de cada tinto un café diferente.           
-          p.mb-4 En este ejemplo, el café y el azúcar son llamados solutos y el agua se denomina solvente.          
+          p.mb-4 En este ejemplo, el café y el azúcar son llamados <strong>solutos</strong> y el agua se denomina <strong>solvente</strong>.          
 
     p.mb-4 El ejemplo anterior muestra que una solución es una mezcla homogénea cuyos componentes, llamados soluto y solvente, no pueden ser separados por métodos mecánicos simples (filtración, decantación y centrifugación).    
     p.mb-4 Las soluciones verdaderas constan de un solvente y uno o varios solutos, cuyas proporciones varían de una solución a otra:
@@ -380,13 +380,13 @@
                 li 
                   i.lista-ul__vineta
                   p 
-                    strong Sólido en gas: 
-                    | en este caso el soluto es un gas y el disolvente es un sólido. Por ejemplo: polvo disuelto en aire. La cantidad de polvo disuelta en el aire es tomada como referencia en la evaluación de contaminación ambiental                  
+                    strong Gas en gas: 
+                    | tanto el soluto como el disolvente son gases. En muchas ocasiones estas disoluciones se asumen como mezclas debido a las débiles interacciones entre las partículas de los gases. Por ejemplo: oxígeno en aire.                                  
                 li 
                   i.lista-ul__vineta
                   p 
-                    strong Gas en gas: 
-                    | tanto el soluto como el disolvente son gases. En muchas ocasiones estas disoluciones se asumen como mezclas debido a las débiles interacciones entre las partículas de los gases. Por ejemplo: oxígeno en aire.                                  
+                    strong Gas en sólido: 
+                    | en este caso el soluto es un gas y el disolvente es un sólido. Por ejemplo: polvo disuelto en aire. La cantidad de polvo disuelta en el aire es tomada como referencia en la evaluación de contaminación ambiental                                
                 li 
                   i.lista-ul__vineta
                   p 
@@ -414,7 +414,7 @@
       .col-lg-4.d-flex
         .cajon.color-primario.p-4.mb-4
           .h5 Unidades físicas          
-          p.mb-4 Son aquellas que se expresan en relación al peso y al volumen de la solución, en forma porcentual (se multiplican por 100). 
+          p.mb-4 Son aquellas que se expresan en relación al peso y al volumen de la solución, en forma porcentual (se multiplican por 100). Por ejemplo:
           div                                  
             ul.lista-ul--color
               li 
@@ -439,7 +439,7 @@
                   div.d-flex.justify-content-center
                     figure.w-50.mb-4 
                       img(src='@/assets/curso/tema1/img32.svg', alt='Molaridad') 
-                  p.mb-4  Donde n(X) es la cantidad de moles del componente X y Vdisolución es el volumen de la disolución. La molaridad se expresa en moles/L de solución.
+                  p.mb-4  Donde <cite>n(X)</cite> es la cantidad de moles del componente X y <cite>Vdisolución</cite> es el volumen de la disolución. La molaridad se expresa en moles/L de solución.
               li
                 i.lista-ul__vineta         
                 div                   
@@ -460,7 +460,7 @@
         figure.w-50
           img(src='@/assets/curso/tema1/img34.svg', alt='Temperatura')              
 
-    h5.mb-4 Concentración de una solución química
+    h5.mb-4 ¿Qué es magnitud escalar y magnitud vectorial?
     p.mb-4 Una magnitud escalar es aquella que queda completamente determinada con un número y sus correspondientes unidades, y una magnitud vectorial es aquella a la que, además de un valor numérico y sus unidades (módulo), se debe especificar su dirección y sentido.
     p.mb-4 La medición de la temperatura está relacionada con la noción de frío (menor temperatura) y de calor (mayor temperatura), que se puede percibir de manera instintiva. Además, la temperatura actúa como un valor de referencia para determinar el calor normal del cuerpo humano, información que sirve para estimar estados de salud. El calor también se utiliza para los procesos químicos, industriales y metalúrgicos (Raffino, 2020).
     p.mb-4 Dentro de las escalas para medir temperatura, las más usadas son la Celsius, también conocida como “escala centígrada” y la escala Fahrenheit, pero también existen otras; ahora se analizará cada una de ellas (Raffino, 2020):
@@ -488,8 +488,8 @@
 
     br
     p.mb-4 Teniendo clara la variable temperatura, se continúa con el estudio de la variable presión y cómo afecta las características de los productos químicos. 
-    p.mb-4 Raffino (2020), indica que la presión es una magnitud escalar representada con el símbolo p, que designa una proyección de fuerza ejercida de manera perpendicular sobre una superficie, por unidad de superficie.
-    p.mb-4 La presión relaciona una fuerza de acción continua y una superficie sobre la cual actúa, por lo cual se mide en el Sistema Internacional (SI) en pascales (Pa), equivalentes cada uno a un newton (N) de fuerza actuando sobre un metro cuadrado (m2) de superficie. En el sistema inglés, en cambio, se prefiere la medida de libras (pounds) por pulgadas (inches).
+    p.mb-4 Raffino (2020), indica que la presión es una magnitud escalar representada con el símbolo <cite>p</cite>, que designa una proyección de fuerza ejercida de manera perpendicular sobre una superficie, por unidad de superficie.
+    p.mb-4 La presión relaciona una fuerza de acción continua y una superficie sobre la cual actúa, por lo cual se mide en el Sistema Internacional <cite>(SI)</cite> en pascales <cite>(Pa)</cite>, equivalentes cada uno a un newton <cite>(N)</cite> de fuerza actuando sobre un metro cuadrado <cite>(m2)</cite> de superficie. En el sistema inglés, en cambio, se prefiere la medida de libras <cite>(pounds)</cite> por pulgadas <cite>(inches)</cite>.
     br
 
     .row.mb-4    
@@ -549,7 +549,7 @@
               | Presión absoluta: es la que se ejerce sobre un cuerpo por la acción de algún elemento, más la presión atmosférica que sufre (todos cuerpos en el planeta están sometidos a la presión atmosférica).
             li.mb-4 
               i.lista-ul__vineta                  
-              | Presión absoluta: es la que se ejerce sobre un cuerpo por la acción de algún elemento, más la presión atmosférica que sufre (todos cuerpos en el planeta están sometidos a la presión atmosférica).
+              | Presión atmosférica: es la ejercida por el conjunto de la masa de gases de la atmósfera sobre la superficie terrestre y sobre todo lo que repose sobre ella. Como la columna de aire que hay sobre los cuerpos es menor cuando se está a mayor altura, entonces la presión atmosférica disminuye también.
             li.mb-4 
               i.lista-ul__vineta                  
               | Presión manométrica: existe por sobre el valor de presión atmosférica. También llamada presión relativa, su valor corresponde a la diferencia entre el de la presión absoluta y el de la presión atmosférica. La presión relativa se mide utilizando un manómetro (de allí su nombre) y es la que más se utiliza en la vida cotidiana.
@@ -561,7 +561,7 @@
         figure.w-65
           img(src='@/assets/curso/tema1/img38.svg', alt='Presion')              
     br
-    p.mb-4 La presión y la temperatura están íntimamente conectadas. Cuando una sustancia compresible (como un líquido o, mejor aún, un gas) se somete a grandes presiones que obligan a sus partículas (ordinariamente dispersas) a aproximarse las unas a las otras y a vibrar con mayor velocidad, se produce una acumulación de energía que se suele libera como calor. En efecto, a mayor velocidad de las partículas, mayor temperatura (Raffino, 2020).
+    p.mb-4 La presión y la temperatura están íntimamente conectadas. Cuando una sustancia compresible (como un líquido o, mejor aún, un gas) se somete a grandes presiones que obligan a sus partículas (ordinariamente dispersas) a aproximarse las unas a las otras y a vibrar con mayor velocidad, se produce una acumulación de energía que se suele liberar como calor. En efecto, a mayor velocidad de las partículas, mayor temperatura (Raffino, 2020).
     p.mb-4 Esta relación está descrita por la Ley de Gay-Lussac, que establece una proporción directa entre la presión de un volumen fijo de un gas ideal y su temperatura, según la fórmula:
 
     .row.mb-4    
