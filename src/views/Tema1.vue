@@ -562,7 +562,7 @@
           img(src='@/assets/curso/tema1/img38.svg', alt='Presion')              
     br
     p.mb-4 La presión y la temperatura están íntimamente conectadas. Cuando una sustancia compresible (como un líquido o, mejor aún, un gas) se somete a grandes presiones que obligan a sus partículas (ordinariamente dispersas) a aproximarse las unas a las otras y a vibrar con mayor velocidad, se produce una acumulación de energía que se suele liberar como calor. En efecto, a mayor velocidad de las partículas, mayor temperatura (Raffino, 2020).
-    p.mb-4 Esta relación está descrita por la Ley de Gay-Lussac, que establece una proporción directa entre la presión de un volumen fijo de un gas ideal y su temperatura, según la fórmula:
+    p.mb-4 Esta relación está descrita por la Ley de Gay-Lussac (Ley de Gay-Lussac), que establece una proporción directa entre la presión de un volumen fijo de un gas ideal y su temperatura, según la fórmula:
 
     .row.mb-4    
       .col-lg-3
@@ -570,7 +570,8 @@
         div
           h4.text-center P/T = k        
           figure
-            img(src='@/assets/curso/tema1/img39.svg', alt='p/t')                        
+            img(src='@/assets/curso/tema1/img39.svg', alt='p/t')  
+            figcaption Ley de Gay-Lussac                      
       .col-lg-3
     br
     p.mb-4  La presión de un volumen fijo de gas, es directamente proporcional a su temperatura, es decir que, al aumentar la temperatura, las moléculas del gas se mueven más rápidamente y por tanto aumenta el número de choques contra las paredes, es decir aumenta la presión ya que el recipiente es de paredes fijas y su volumen no puede cambiar.

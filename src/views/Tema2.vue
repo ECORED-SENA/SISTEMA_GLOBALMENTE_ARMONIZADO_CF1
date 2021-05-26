@@ -190,14 +190,15 @@
               .col-md-6.mb-4.mb-md-0.d-flex.align-items-center            
                 div                    
                   .h4 Vía respiratoria        
-                  p.mb-4 Es la principal vía de ingreso de los productos químicos en el organismo, por eso son tan importantes los controles de exposición de esta vía.
+                  p.mb-4 Es la principal vía de ingreso de los productos químicos en el organismo, por eso son tan importantes los controles de exposición de esta vía (Vías respiratorias).
                   p.mb-4 El sistema respiratorio está formado por nariz, boca, laringe, bronquios, bronquiolos y alvéolos pulmonares. Esta es la vía de penetración de sustancias tóxicas más importante en el ámbito laboral. 
                   p.mb-4 Cualquier sustancia suspendida en el ambiente puede ser inhalada, pero solo las partículas que posean un tamaño adecuado llegarán a los alvéolos. También influirá su solubilidad en los fluidos del sistema respiratorio en los que se deposita. 
                   p.mb-4 La cantidad total de un contaminante absorbida por vía respiratoria está en función de la concentración en el ambiente, del tiempo de exposición y de la ventilación pulmonar.
               .col-md-1
               .col-md-3.d-flex.align-items-center  
                 figure
-                  img(src='@/assets/curso/tema2/img09.svg', alt='Sólido')              
+                  img(src='@/assets/curso/tema2/img09.svg', alt='Sólido') 
+                  figcaption Vías respiratorias              
               .col-md-1
 
           .py-0.py-md-5(titulo="Vía dérmica" :icono="require('@/assets/curso/tema2/img10.svg')")
