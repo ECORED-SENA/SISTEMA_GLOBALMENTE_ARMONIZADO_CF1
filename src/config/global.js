@@ -151,42 +151,41 @@ export default {
         regional: 'Regional Santander',
       },
       {
-        nombre: 'Astrid Lili Puerta',
-        cargo: 'Experta Temática',
-        centro: 'Centro Agropecuario De Buga',
-        regional: 'Regional Valle',
+        nombre: 'Marta Lucía Hernández',
+        cargo: 'Instructora',
+        centro: 'Centro Textil y de Gestión Industrial',
       },
       {
-        nombre: 'Javier Enrique Santana',
-        cargo: 'Experto Temático',
-        centro: '',
-        regional: '',
+        nombre: 'Luis Eugenio Ramírez Duarte',
+        cargo: 'Experto técnico',
+        centro: 'ONUDI',
       },
       {
-        nombre: 'Michael Andrés Cortés Caro',
-        cargo: 'Experto Temático',
-        centro: 'Ministerio De Ambiente Y Desarrollo Sostenible',
+        nombre: 'Sergio Arturo Medina Castillo',
+        cargo: 'Diseñador Instruccional ',
+        centro: 'Centro para la Industria de la Comunicación Gráfica',
       },
       {
-        nombre: 'Mauricio Jiménez Fajardo',
-        cargo: 'Experto Temático',
-        centro: 'Ministerio De Ambiente Y Desarrollo Sostenible',
-      },
-      {
-        nombre: 'Manuel Alejandro Garzón Cárdenas',
-        cargo: 'Experto Temático',
-        centro: 'Deutsche Gesellschaft Für Internationale Zusammenarbeit (Giz)',
-      },
-      {
-        nombre: 'Liliana Victoria Morales Gualdrón',
-        cargo: 'Diseñador Instruccional',
-        centro: 'Centro Para La Industria Y La Comunicación Gráfica',
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Revisión metodológica y pedagógica',
+        centro: 'Centro para la Industria de la Comunicación Gráfica',
         regional: 'Regional Distrito Capital',
       },
       {
-        nombre: 'Carlos Andrés Rodríguez',
-        cargo: 'Evaluador Instruccional',
-        centro: 'Centro De Diseño Y Metrología',
+        nombre: 'Julia Isabel Roberto',
+        cargo: 'Diseñadora y evaluadora instruccional',
+        centro: 'Centro para la Industria de la Comunicación Gráfica ',
+        regional: 'Regional Distrito Capital',
+      },
+      {
+        nombre: 'Miroslava González Hernández',
+        cargo: 'Diseñador y evaluador instruccional',
+        centro: 'Centro de Gestión Industrial',
+      },
+      {
+        nombre: 'José Gabriel Ortiz Abella',
+        cargo: 'Corrector de estilo',
+        centro: 'Centro para la Industria de la Comunicación Gráfica',
         regional: 'Regional Distrito Capital',
       },
     ],
@@ -200,7 +199,7 @@ export default {
         cargo: 'Soporte organizacional',
       },
       {
-        nombre: 'Eulises Orduz Amézquita',
+        nombre: 'Oscar Julian Marquez Sanabria',
         cargo: 'Diseño web',
       },
       {
@@ -211,14 +210,14 @@ export default {
           'Laura Murcia Pardo',
           'María Carolina Tamayo López',
           'Oleg Litvin',
-          'Victor Raúl Cárdenas Cáceres',
+          'Victor Cardenas',
           'Wilson Andrés Arenales Cáceres',
           'Zuleidy Maria Ruiz Torres',
         ],
         cargo: 'Producción audiovisual',
       },
       {
-        nombre: 'Edgar Mauricio Cortés García',
+        nombre: 'Edgar Mauricio Cortes García',
         cargo: 'Desarrollo front-end',
       },
       {
@@ -242,47 +241,135 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
+        'Biología. (2016). Usos y aplicaciones de las soluciones farmacéuticas: ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'http://quimicabiologianutricional.blogspot.com/2016/10/usos-y-aplicaciones-de-las-soluciones.html',
+    },
+    {
+      referencia: 'Blogger. (2016). Ley de Gay Lussac: ',
+      link: 'http://termo4to.blogspot.com/2016/03/ley-de-gay-lussac.html?m',
+    },
+    {
+      referencia: 'Ciencias en el CIC. (2011). Bioacumulación: ',
+      link: 'http://cienciascic.blogspot.com/2011/03/bioacumulacion.html',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
+        'Corporativo Químico Global. (2011). Ciclo de vida de un producto químico: ',
+      link: '',
+    },
+    {
+      referencia:
+        'Decreto 1443 de 2014. [Presidencia de la República]. Por el cual se dictan disposiciones para la implementación del Sistema de Gestión de la Seguridad y Salud en el Trabajo (SG-SST). Colombia. 31 de Julio de 2014.',
+    },
+    {
+      referencia:
+        'Estévez, R. (2015). Impactos ambientales: agotamiento de la capa de ozono. Ecointeligencia: ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://www.google.com.co/search?q=Efecto+de+los+CFC+sobre+el+ozono+estratosf%C3%A9rico&tbm=isch&ved=2ahUKEwiJvfX7zPjsAhXI2VkKHRgwD5QQ2-cCegQIABAA&oq=Efecto+de+los+CFC+sobre+el+ozono+estratosf%C3%A9rico&gs_lcp=CgNpbWcQAzoCCAA6BAgAEENQwGpYw3dg_H1oAHAAeAOAAZACiAGBD5IBBjAuMTEuMpgBAKABAaoBC2d3cy13aXotaW1nsAEAwAEB&sclient=img&ei=N9uqX8nFJciz5wKY4LygCQ&authuser=0&bih=657&biw=1366&hl=es#imgrc=IX6-jDYNM-SbGM',
     },
     {
       referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Instituto Nacional de Ecología y Cambio Climático. (2007). Peligrosidad de las sustancias químicas. Ciudad de México: ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'http://www2.inecc.gob.mx/publicaciones2/libros/131/peligrosidad.html',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
+        'Instituto Nacional de Seguridad y Salud y Salud en el Trabajo - Insst. (s.f). ¿Qué es un producto químico? Insst: ',
+      link: 'https://www.insst.es/-/-que-es-un-producto-quimico-peligroso-',
     },
     {
       referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'Instituto Nacional de Seguridad e Higiene en el Trabajo. (s.f.). NTP 244: criterios de valoración en higiene industrial. Instituto Nacional de Seguridad e Higiene en el Trabajo.',
+    },
+    {
+      referencia:
+        'ISO Tools Excellence. (2018). Norma ISO 45001: ¿Qué diferencias existen entre los peligros y riesgos?: ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://www.isotools.org/2018/07/26/norma-iso-45001-diferencias-entre-peligros-y-riesgos/#:~:text=Definici%C3%B3n%20peligro,o%20una%20combinaci%C3%B3n%20de%20estos.',
+    },
+    {
+      referencia: 'María. (s.f). Unidades de presión: ',
+      link:
+        'https://www.google.com/search?q=unidades+de+presi%C3%B3n&tbm=isch&ved=2ahUKEwid1oTfufjsAhW3cDABHetsDRQQ2-cCegQIABAA&oq=unidades+de+presi%C3%B3n&gs_lcp=CgNpbWcQAzICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAA6BQgAELEDOgcIABCxAxBDUJgOWOonYJQqaABwAHgAgAGyAogBlxeSAQgwLjE4LjAuMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=DseqX52XL7fhwbkP69m1oAE&bih=912&biw=1920&rlz=1C1OKWM_esCO796CO796#imgrc=RM1Ghw_uOlQ28M',
     },
     {
       referencia:
-        'Sociedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
+        'Martínez, J. (2020). La calidad del aire en Bogotá se verá afectada nuevamente. Caracol Radio: ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'https://caracol.com.co/emisora/2020/06/24/bogota/1593019353_934370.html',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'Ministerio de Ambiente de Ecuador. (s.f). Contaminantes Orgánicos Persistentes COP.',
+    },
+    {
+      referencia:
+        'Ministerio de Trabajo y Asuntos Sociales de España. (s. f). Criterios de valoración en higiene industrial. Ministerio de Trabajo y Asuntos Sociales de España.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://www.insst.es/documents/94886/327166/ntp_244.pdf/b853aaf2-955b-41d7-b021-7bd702ecdd9d#:~:text=En%20Higiene%20Industrial%20se%20entiende,salud%20puede%20entra%C3%B1ar%20el%20mismo',
+    },
+    {
+      referencia:
+        'Nueva ISO-45001. (2016). Identificación y clasificación de riesgos con OHSAS 18001: ',
+      link: 'https://www.nueva-iso-45001.com/2016/01/riesgos-ohsas-18001/',
+    },
+    {
+      referencia:
+        'Organización Internacional de Estandarización. (2018). Sistemas de gestión de la seguridad y salud en el trabajo - Requisitos con orientación para su uso: ',
+      link: 'https://www.iso.org/obp/ui/#iso:std:iso:45001:ed-1:v1:es',
+    },
+    {
+      referencia:
+        'Pnuma. (2013). Breve panorama sobre el ciclo de vida de los productos químicos: ',
+      link:
+        'https://docplayer.es/20767339-Breve-panorama-sobre-el-ciclo-de-vida-de-los-productos-quimicos.html',
+    },
+    {
+      referencia:
+        'Querespuesta.com. (s.f). ¿Cuál es la diferencia entre la presión absoluta y la presión relativa? ',
+      link:
+        'https://www.google.com/search?q=presi%C3%B3n+absoluta&tbm=isch&ved=2ahUKEwjiqrSTuvjsAhXPx1kKHZSDBzsQ2-cCegQIABAA&oq=presi%C3%B3n+absoluta&gs_lcp=CgNpbWcQAzICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAA6BAgAEEM6BQgAELEDOgcIABCxAxBDUJEOWP8rYOswaABwAHgAgAGlAYgB7xGSAQQwLjE2mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=fMeqX-L8JM-P5wKUh57YAw&bih=912&biw=1920&rlz=1C1OKWM_esCO796CO796#imgrc=tlk073SYDLP7nM',
+    },
+    {
+      referencia: 'Raffino, M. (2020). Estado gaseoso: ',
+      link: 'https://concepto.de/estado-gaseoso/#ixzz6alpD2H00',
+    },
+    {
+      referencia: 'Raffino, M. (2020). Estado líquido: ',
+      link: 'https://concepto.de/estado-liquido/#ixzz6aQJpFjBO',
+    },
+    {
+      referencia: 'Raffino, M. (2020). Estado sólido: ',
+      link: 'https://concepto.de/estado-solido/#ixzz6aQI3dzDO',
+    },
+    {
+      referencia: 'Raffino, M. (2020). Presión: ',
+      link: 'https://concepto.de/presion-2/#ixzz6axfmGRkQ',
+    },
+    {
+      referencia: 'Raffino, M. (2020). Solución química: ',
+      link: 'https://concepto.de/solucion-quimica/#ixzz6at1ubs7D',
+    },
+    {
+      referencia: 'Raffino, M. (2020). Temperatura: ',
+      link: 'https://concepto.de/temperatura/#ixzz6axEA3id2',
+    },
+    {
+      referencia: 'ResearhGate. (s.f.).Ciclo de vida de un producto químico: ',
+      link:
+        'https://www.researchgate.net/figure/Ciclo-de-vida-de-las-sustancias-quimicas_fig1_320771708',
+    },
+    {
+      referencia: 'Testo. (s.f). Fundamentos físicos: ',
+      link:
+        'https://www.testo.com/es-CL/servicio/knowledgebase-pressure-physical-principles',
+    },
+    {
+      referencia: 'UFT.cl (s.f). Disoluciones químicas: ',
+      link:
+        'https://uft.cl/images/futuros_alumnos/profesores_orientadores/material-pedagogico/Guia_5_Soluciones.pdf',
     },
   ],
   glosario: [
