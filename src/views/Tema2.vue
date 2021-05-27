@@ -344,8 +344,9 @@
     p.mb-4 Los efectos colaterales de los productos químicos no se limitan solamente a probables exposiciones a las que se ve enfrentado un trabajador en el momento de usar el producto químico. Los efectos se dan en todos los momentos en los que el producto es activo, es decir, en todo su ciclo de vida.
     p.mb-4 La idea de “ciclo de vida” se introdujo para evaluar las características ambientales de los productos químicos, y considera cinco etapas básicas: premanufactura, manufactura, envío del producto, uso y fin de su vida útil.
 
-    figure.mb-4.fondo-gris
-      img(src='@/assets/curso/tema2/img21.svg', alt='Sólido')
+    figure.mb-4
+      .video
+        iframe(width="1255" height="706" src="https://www.youtube.com/embed/fdZTopMiBUA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)      
 
     p.mb-4 Dicha evaluación permite contar con productos con menores impactos ambientales, pero sin que se omitan las características deseadas en la productividad. El reto para los profesionales de la química sería, entonces, el desarrollo de nuevos productos, procesos y servicios que cumplan con los requerimientos sociales, económicos y ambientales.
     p.mb-4 Para esto, se requiere reducir el consumo de materiales y energía en los procesos, minimizar la emisión al ambiente de sustancias químicas peligrosas, maximizar el uso de recursos renovables y extender la durabilidad y el reciclaje de los productos (Global, 2011).
