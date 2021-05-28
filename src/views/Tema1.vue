@@ -8,7 +8,7 @@
         .h3 1
       .h3 Características de los productos químicos
 
-    figure.mb-4
+    //figure.mb-4
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)      
 
@@ -461,6 +461,9 @@
           img(src='@/assets/curso/tema1/img34.svg', alt='Temperatura')              
 
     h5.mb-4 ¿Qué es magnitud escalar y magnitud vectorial?
+    figure.mb-4
+      .video
+        iframe(width="1255" height="706" src="https://www.youtube.com/embed/NVSkN8aptyg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)      
     p.mb-4 Una magnitud escalar es aquella que queda completamente determinada con un número y sus correspondientes unidades, y una magnitud vectorial es aquella a la que, además de un valor numérico y sus unidades (módulo), se debe especificar su dirección y sentido.
     p.mb-4 La medición de la temperatura está relacionada con la noción de frío (menor temperatura) y de calor (mayor temperatura), que se puede percibir de manera instintiva. Además, la temperatura actúa como un valor de referencia para determinar el calor normal del cuerpo humano, información que sirve para estimar estados de salud. El calor también se utiliza para los procesos químicos, industriales y metalúrgicos (Raffino, 2020).
     p.mb-4 Dentro de las escalas para medir temperatura, las más usadas son la Celsius, también conocida como “escala centígrada” y la escala Fahrenheit, pero también existen otras; ahora se analizará cada una de ellas (Raffino, 2020):
