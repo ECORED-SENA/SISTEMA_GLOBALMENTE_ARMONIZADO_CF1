@@ -8,7 +8,7 @@
         .h3 1
       .h3 Características de los productos químicos
 
-    figure.mb-4
+    //figure.mb-4
       .video
         iframe(width="1280" height="720" src="https://www.youtube.com/embed/Ourh_8bSjr0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)      
 
