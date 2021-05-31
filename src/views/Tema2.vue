@@ -7,6 +7,9 @@
       .titulo-principal__numero
         .h3 2
       .h3 Peligros y riesgos
+
+    figure.mb-4
+      img(src='@/assets/curso/tema2/img25.png', alt='')    
     
     #t_2_1.titulo-segundo
       .h4 2.1  Definición de peligros y riesgo
