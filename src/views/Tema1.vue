@@ -8,9 +8,9 @@
         .h3 1
       .h3 Características de los productos químicos
 
-    //figure.mb-4
+    figure.mb-4
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)      
+        iframe(width="1280" height="720" src="https://www.youtube.com/embed/Ourh_8bSjr0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)      
 
     p.mb-4 Bienvenido al curso Aplicación del Sistema Globalmente Armonizado (SGA) en el manejo de productos químicos. Este curso tiene como propósito brindar los conceptos básicos y fundamentales para la comprensión del manejo de productos químicos de acuerdo con los lineamientos de SGA. 
     p.mb-5 Al finalizar el curso se estará en capacidad de tomar decisiones sobre el manejo seguro de los productos químicos basados en la adecuada interpretación de la información que ofrece el Sistema Globalmente Armonizado. Adicionalmente, (SGA) se refuerzan muchos conceptos que permiten hacer una lectura eficiente de las Hojas de Datos de Seguridad (HDS), lo permitirá tomar las medidas de prevención y de protección que sean necesarias.
