@@ -422,31 +422,29 @@ export default {
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Biología. (2016). Usos y aplicaciones de las soluciones farmacéuticas. ',
+      tipo: 'Blog',
+      link:
+        'http://quimicabiologianutricional.blogspot.com/2016/10/usos-y-aplicaciones-de-las-soluciones.html',
+    },
+    {
+      texto: 'Rafino, M. (2020). Solución química.',
+      tipo: 'Página web',
+      link: 'https://concepto.de/solucion-quimica/#ixzz6au4gDxxt',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'Instituto Nacional de Seguridad e Higiene en el Trabajo (s.f.): NTP 244: Criterios de valoración en higiene industrial.',
+      tipo: 'PDF',
+      link:
+        'https://www.insst.es/documents/94886/327166/ntp_244.pdf/b853aaf2-955b-41d7-b021-7bd702ecdd9d',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Corporativo Químico Global S.A. (2011). Ciclo de vida de productos químicos. ',
+      tipo: 'Blog',
+      link:
+        'https://quimicoglobal.mx/ciclo-de-vida-productos-quimicos/#:~:text=El%20concepto%20de%20ciclo%20de,fin%20de%20su%20vida%20%C3%BAtil',
     },
   ],
 }

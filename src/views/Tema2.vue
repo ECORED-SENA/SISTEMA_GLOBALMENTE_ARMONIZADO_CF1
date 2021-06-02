@@ -372,7 +372,7 @@
         .div
           figure.mb-4
             img(src='@/assets/curso/tema2/img22.svg', alt='')
-          a.w-80.anexo.mb-4(:href="('https://quimicoglobal.mx/ciclo-de-vida-productos-quimicos/#:~:text=El%20concepto%20de%20ciclo%20de,fin%20de%20su%20vida%20%C3%BAtil')" target="_blank")
+          a.w-80.anexo.mb-4(:href="obtenerLink('/downloads/Anexo_1_Contaminantes_orgánicos_persitentes_COP.pdf')" target="_blank")
             .anexo__icono
               img(src="@/assets/curso/tema2/icono-pdf.svg")
             .anexo__texto
