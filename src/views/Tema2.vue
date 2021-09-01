@@ -6,13 +6,13 @@
     .titulo-principal
       .titulo-principal__numero
         .h3 2
-      .h3 Peligros y riesgos
+      .h3.text-in Peligros y riesgos
 
     figure.mb-4
       img(src='@/assets/curso/tema2/img25.png', alt='')    
     
     #t_2_1.titulo-segundo
-      .h4 2.1  Definición de peligros y riesgo
+      .h4.text-in 2.1  Definición de peligros y riesgo
     
     p.mb-4 Antes de estudiar las definiciones de peligro y riesgo, se recomienda realizar el siguiente ejercicio:    
     .row.mb-4
@@ -56,7 +56,7 @@
             .row.justify-content-center.mb-4
               .col-6
                 figure
-                  img(src='@/assets//curso/tema2/img03.svg', alt='Texto que describa la imagen')          
+                  img.zoom(src='@/assets//curso/tema2/img03.svg', alt='Texto que describa la imagen')          
             .h4.text-center En el caso del término “peligro”, este se identifica como:
             div
               ul.lista-ul--color
@@ -74,7 +74,7 @@
             .row.justify-content-center.mb-4
               .col-6
                 figure
-                  img(src='@/assets//curso/tema2/img04.svg', alt='Texto que describa la imagen')
+                  img.zoom(src='@/assets//curso/tema2/img04.svg', alt='Texto que describa la imagen')
               
             .h4.text-center Para el término “riesgo”, se presentan las siguientes definiciones:
             div
@@ -95,7 +95,7 @@
     #t_2_2.titulo-segundo
       .h4 2.2 Concepto de dosis
 
-    p.mb-4 Teniendo claros los conceptos de peligro y riesgo, ahora se estudiará el concepto de dosis, el cual es uno de los más importantes y de mayor utilidad en el manejo seguro de sustancias químicas. Sin embargo, en muchos casos, los manipuladores de sustancias químicas ignoran este concepto y cuando lo conocen no lo aplican apropiadamente. 
+    p.mb-4 Teniendo claros los conceptos de peligro y riesgo, ahora se estudiará el concepto de dosis, el cual es uno de los más importantes y de mayor utilidad en el manejo seguro de productos químicos. Sin embargo, en muchos casos, los manipuladores de productos químicos  ignoran este concepto y cuando lo conocen no lo aplican apropiadamente. 
     p.mb-4 Con el fin de facilitar la apropiación del concepto, se plantea un caso de la cotidianidad:
 
     .mb-4.div-color-sistema-c      
@@ -181,7 +181,7 @@
     #t_2_3.titulo-segundo
       .h4 2.3 Vías de ingreso
 
-    p.mb-4 Cada una de estas sustancias o productos químicos pueden ingresar al organismo a través de cuatro vías:
+    p.mb-4 Cada una de estos productos químicos pueden ingresar al organismo a través de cuatro vías:
 
     .row.mb-5
       .col-1
@@ -210,10 +210,10 @@
               .col-md-6.mb-4.mb-md-0.d-flex.align-items-center            
                 div                    
                   .h4 Vía dérmica        
-                  p.mb-4 Muchas sustancias son capaces de atravesar la piel en estado normal, alcanzar los capilares sanguíneos e incorporarse a la sangre, para ser distribuidas, de este modo, por todo el cuerpo (figura 6).
+                  p.mb-4 Muchos productos químicos son capaces de atravesar la piel en estado normal, alcanzar los capilares sanguíneos e incorporarse a la sangre, para ser distribuidas, de este modo, por todo el cuerpo (figura 6).
                   p.mb-4 Es de anotar que la temperatura, la sudoración y la integridad de la piel pueden influir en la absorción de tóxicos a través de la piel.
-                  p.mb-4 En este caso es muy importante resaltar que los contactos con sustancias químicas se deben prevenir usando ropas aislantes como overoles, delantales, guantes y otros tipos de protección adicionales a las medidas de control de ingeniería.
-                  p.mb-4 Existen sustancias para las cuales la piel es permeable como: n-butanol, 2-butoxietanol, tolueno.
+                  p.mb-4 En este caso es muy importante resaltar que los contactos con productos químicos se deben prevenir usando ropas aislantes como overoles, delantales, guantes y otros tipos de protección adicionales a las medidas de control de ingeniería.
+                  p.mb-4 Existen productos para las cuales la piel es permeable como: n-butanol, 2-butoxietanol, tolueno.
               .col-md-1
               .col-md-3.d-flex.align-items-center  
                 figure
@@ -239,9 +239,9 @@
               .col-md-1
               .col-md-6.mb-4.mb-md-0.d-flex.align-items-center            
                 div                    
-                  .h4 Vía digestiva        
+                  .h4 Vía de ingreso digestiva       
                   p.mb-4 El sistema digestivo está formado por boca, estómago e intestinos (figura 8). Aunque esta vía de ingreso pareciera de poca importancia, en higiene industrial es frecuente en operarios que tienen el hábito de comer y beber en el puesto de trabajo.
-                  p.mb-4 Como medida de prevención al ingreso de sustancias químicas por esta vía, se recomienda establecer políticas de no consumo de alimentos en los lugares de trabajo, no usar las neveras para reactivos o los cuartos fríos de productos químicos para refrigerar alimentos y mantener un frecuente lavado de manos, especialmente antes de tomar los alimentos.
+                  p.mb-4 Como medida de prevención al ingreso de productos químicos por esta vía, se recomienda establecer políticas de no consumo de alimentos en los lugares de trabajo, no usar las neveras para reactivos o los cuartos fríos de productos químicos para refrigerar alimentos y mantener un frecuente lavado de manos, especialmente antes de tomar los alimentos.
               .col-md-1
               .col-md-3.d-flex.align-items-center  
                 figure
@@ -276,10 +276,10 @@
     #t_2_5.titulo-segundo
       .h4 2.5 Efectos crónicos y agudos
 
-    p.mb-4 Para los propósitos del manejo seguro de las sustancias químicas, se debe de tener en cuenta dos clasificaciones de “exposición y efecto”.
+    p.mb-4 Para los propósitos del manejo seguro de los productos químicos, se debe de tener en cuenta dos clasificaciones de “exposición y efecto”.
 
     .tarjeta-Avatar-b.mb-4
-          img.mb-5(src='@/assets/curso/tema2/img17.svg' alt='img05')
+          img.zoom.mb-5(src='@/assets/curso/tema2/img17.svg' alt='img05')
           .tarjeta.fondo-celeste.p-4
             .h4 Exposición aguda 
             p.mb-4 Una exposición aguda es aquella que produce alteraciones en la salud de manera inmediata o en muy corto tiempo después de la exposición. Por ejemplo, un contacto de la piel con soda cáustica, produce una lesión que se siente casi inmediatamente después y genera un dolor intenso, dependiendo de la cantidad de sustancia, el área de la piel afectada y la concentración del producto químico. También se puede apreciar la necrosis de la piel, el desprendimiento de vapores, calor en la parte afectada y, en términos generales, la lesión es muy notoria y el dolor intenso.
@@ -287,7 +287,7 @@
     br
     br
     .tarjeta-Avatar-b.mb-5
-          img(src='@/assets/curso/tema2/img18.svg' alt='img05')
+          img.zoom(src='@/assets/curso/tema2/img18.svg' alt='img05')
           .tarjeta.fondo-celeste.p-4
             .h4 Exposiciones crónicas  
             p.mb-4 De otro lado, las exposiciones crónicas son aquellas en las que la exposición se da en bajas dosis, pero en repetidas ocasiones y, por lo general, en largos periodos de trabajo. Por ejemplo, la exposición a fibras de asbesto de un trabajador no produce efectos inmediatos, pero sí acumulativos. Esto quiere decir que la enfermedad producida por la exposición a fibras de asbesto, se manifestará en trabajadores que llevan algunos años de exposición.
@@ -312,7 +312,7 @@
             img(src='@/assets/curso/tema2/img20.svg', alt='Sólido')                      
       .col-md-2
 
-    p.mb-4 Los TLV para agentes químicos, expresan concentraciones en aire de diversas sustancias por debajo de las cuales la mayoría de los trabajadores puede exponerse sin sufrir efectos adversos. Se admite que, dada la variabilidad de respuestas individuales, un porcentaje de trabajadores pueda experimentar ligeras molestias ante ciertas sustancias en estas concentraciones o por debajo de ellas, incluso en casos raros, puedan verse afectados por agravamiento de dolencias previas o por la aparición de enfermedades profesionales. Debido a los variados efectos que los productos químicos pueden provocar en las personas expuestas, se definen diferentes tipos de valores TLV.
+    p.mb-4 Los TLV para agentes químicos, expresan concentraciones en aire de diversos productos por debajo de las cuales la mayoría de los trabajadores puede exponerse sin sufrir efectos adversos. Se admite que, dada la variabilidad de respuestas individuales, un porcentaje de trabajadores pueda experimentar ligeras molestias ante ciertos productos en estas concentraciones o por debajo de ellas, incluso en casos raros, puedan verse afectados por agravamiento de dolencias previas o por la aparición de enfermedades profesionales. Debido a los variados efectos que los productos químicos pueden provocar en las personas expuestas, se definen diferentes tipos de valores TLV.
     
     div.mb-4.w-100.fondo-verder.text-center.p-3 
       h5.fondo-verder.m-1 Tipos de valores TLV
@@ -325,7 +325,7 @@
       .col-md-3.d-flex
         .cajon.color-secundario.p-4
           strong TLV-C: 
-          | Valor techo: concentración que no debería ser sobrepasada en ningún instante. La práctica habitual de la higiene admite para su valoración muestreos de 15 minutos excepto para aquellos casos de sustancias que puedan causar irritación inmediata con exposiciones muy cortas.
+          | Valor techo: concentración que no debería ser sobrepasada en ningún instante. La práctica habitual de la higiene admite para su valoración muestreos de 15 minutos excepto para aquellos casos de productos que puedan causar irritación inmediata con exposiciones muy cortas.
       .col-md-5.d-flex
         .cajon.color-acento-botones.p-4
           strong TLV-STEL: 
@@ -352,7 +352,7 @@
         iframe(width="1255" height="706" src="https://www.youtube.com/embed/fdZTopMiBUA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)      
 
     p.mb-4 Dicha evaluación permite contar con productos con menores impactos ambientales, pero sin que se omitan las características deseadas en la productividad. El reto para los profesionales de la química sería, entonces, el desarrollo de nuevos productos, procesos y servicios que cumplan con los requerimientos sociales, económicos y ambientales.
-    p.mb-4 Para esto, se requiere reducir el consumo de materiales y energía en los procesos, minimizar la emisión al ambiente de sustancias químicas peligrosas, maximizar el uso de recursos renovables y extender la durabilidad y el reciclaje de los productos (Global, 2011).
+    p.mb-4 Para esto, se requiere reducir el consumo de materiales y energía en los procesos, minimizar la emisión al ambiente de productos químicos peligrosos, maximizar el uso de recursos renovables y extender la durabilidad y el reciclaje de los productos (Global, 2011).
 
     a.mb-4.m-0.mb-5.anexo.mb-4.mb-lg-0.milink(href="https://quimicoglobal.mx/ciclo-de-vida-productos-quimicos/#:~:text=El%20concepto%20de%20ciclo%20de,fin%20de%20su%20vida%20%C3%BAtil" target="_blank")
         .anexo__icono
@@ -366,7 +366,7 @@
     .row.mb-4.color-primario.py-5
       .col-5.d-flex.align-items-center
         .div
-          p.mb-4 Los productos químicos pueden causar riesgos inaceptables a la salud humana o al medio ambiente, porque algunos productos químicos poseen una combinación de propiedades físicas y químicas tal, que una vez liberados en el medio ambiente, se degradan muy lentamente y permanecen en los medios y organismos ambientales durante años o decenios, e incluso cuando se liberan en cantidades relativamente pequeñas, se dice entonces que estos productos químicos son persistentes. 
+          p.mb-4 Los productos químicos pueden causar peligros inaceptables a la salud humana o al medio ambiente, porque algunos productos químicos poseen una combinación de propiedades físicas y químicas tal, que una vez liberados en el medio ambiente, se degradan muy lentamente y permanecen en los medios y organismos ambientales durante años o decenios, e incluso cuando se liberan en cantidades relativamente pequeñas, se dice entonces que estos productos químicos son persistentes. 
           p Estos productos químicos pueden propagarse mediante procesos ambientales naturales a largas distancias, provocando la contaminación a escala regional y mundial de los medios ambientales, los alimentos, la fauna, la flora y los seres humanos.
       .col-7.d-flex.align-items-center.justify-content-center
         .div
@@ -385,13 +385,13 @@
       .col-5.d-flex.align-items-center
         .div
           p.mb-4 La <strong>biomagnificación</strong> se da cuando los depredadores ubicados en los niveles superiores de la cadena alimentaria consumen fauna o flora contaminada y adquieren cargas corporales muy altas de ciertos productos químicos que pueden causarles serios daños, incluidos defectos congénitos y disfunciones reproductivas.
-          p Es por esta situación que en los últimos decenios se ha prestado cada vez mayor atención al tratamiento de los riesgos que entrañan las sustancias persistentes, bioacumulativos y tóxicas debido a que la amplia exposición a dichas sustancias puede ocurrir durante largos períodos –afectando generaciones de seres humanos– y causar efectos tóxicos. Ejemplos de estos productos químicos son los Contaminantes Orgánicos Persistentes (COP) y ciertos compuestos de metales como el mercurio.
+          p Es por esta situación que en los últimos decenios se ha prestado cada vez mayor atención al tratamiento de los peligros que entrañan los productos persistentes, bioacumulativos y tóxicos debido a que la amplia exposición a dichos productos químicos puede ocurrir durante largos períodos –afectando generaciones de seres humanos– y causar efectos tóxicos. Ejemplos de estos productos químicos son los Contaminantes Orgánicos Persistentes (COP) y ciertos compuestos de metales como el mercurio.
       .col-7.d-flex.align-items-center.justify-content-center
         .div
           figure.mb-4
-            img(src='@/assets/curso/tema2/img23.svg', alt='Sólido')
+            img.swing(src='@/assets/curso/tema2/img23.svg', alt='Sólido')
           
-    p.mb-4 Sin embargo, no todas las afecciones de los productos químicos se producen directamente en la fauna, la flora o los seres humanos, otros pueden ocasionar cambios en el medio ambiente y representan riesgos. Algunos ejemplos de ello son los productos químicos orgánicos volátiles y los óxidos de nitrógeno, los cuales dan lugar al ozono troposférico (o “smog”), y los clorofluorocarbonos (CFC), que degradan las capas de ozono estratosféricas y hacen que una mayor radiación ultravioleta incida sobre la superficie de la Tierra.
+    p.mb-4 Sin embargo, no todas las afecciones de los productos químicos se producen directamente en la fauna, la flora o los seres humanos, otros pueden ocasionar cambios en el medio ambiente y representan peligros. Algunos ejemplos de ello son los productos químicos orgánicos volátiles y los óxidos de nitrógeno, los cuales dan lugar al ozono troposférico (o “smog”), y los clorofluorocarbonos (CFC), que degradan las capas de ozono estratosféricas y hacen que una mayor radiación ultravioleta incida sobre la superficie de la Tierra.
     
     .row.mb-4
       .col-2      

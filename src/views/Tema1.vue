@@ -6,19 +6,19 @@
     .titulo-principal
       .titulo-principal__numero
         .h3 1
-      .h3 Características de los productos químicos
+      .h3.text-in Características de los productos químicos
 
     //figure.mb-4
       .video
         iframe(width="1280" height="720" src="https://www.youtube.com/embed/Ourh_8bSjr0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)      
 
     p.mb-4 Bienvenido al curso Aplicación del Sistema Globalmente Armonizado (SGA) en el manejo de productos químicos. Este curso tiene como propósito brindar los conceptos básicos y fundamentales para la comprensión del manejo de productos químicos de acuerdo con los lineamientos de SGA. 
-    p.mb-5 Al finalizar el curso se estará en capacidad de tomar decisiones sobre el manejo seguro de los productos químicos basados en la adecuada interpretación de la información que ofrece el Sistema Globalmente Armonizado. Adicionalmente, (SGA) se refuerzan muchos conceptos que permiten hacer una lectura eficiente de las Hojas de Datos de Seguridad (HDS), lo permitirá tomar las medidas de prevención y de protección que sean necesarias.
+    p.mb-5 Al finalizar el curso se estará en capacidad de tomar decisiones sobre el manejo seguro de los productos químicos basados en la adecuada interpretación de la información que ofrece el Sistema Globalmente Armonizado. Adicionalmente, (SGA) se refuerzan muchos conceptos que permiten hacer una lectura eficiente de las Fichas de Datos de Seguridad (HDS), lo permitirá tomar las medidas de prevención y de protección que sean necesarias.
 
     hr 
     br
     #t_1_1.titulo-segundo
-      .h4 1.1 Definición de productos químicos
+      .h4.text-in 1.1 Definición de productos químicos
 
     p.mb-4 Para iniciar, se muestran cuatro (4) figuras que se deben observar cuidadosamente y responder la siguiente pregunta:
     
@@ -26,7 +26,7 @@
       .col-4.d-flex.align-items-center.justify-content-center
         .div
           h4 ¿En cuál o en cuáles de esas imágenes hay productos químicos?
-          p Seguramente la respuesta es que en tres (3) hay productos químicos; sin embargo, la respuesta correcta sería en las cuatro (4) figuras.<br><br> Es de recordar que el agua es el producto final de una reacción química, H2O, y esta aparece en grandes cantidades en la figura 3, incluso los seres vivos que aparecen allí están compuestos por sustancias químicas.
+          p Seguramente la respuesta es que en tres (3) hay productos químicos; sin embargo, la respuesta correcta sería en las cuatro (4) figuras.<br><br> Es de recordar que el agua es el producto final de una reacción química, H2O, y esta aparece en grandes cantidades en la figura 3, incluso los seres vivos que aparecen allí están compuestos por productos químicos. 
       .col-8
         #carouselExampleIndicators.carousel.slide.mb-5(data-bs-ride='carousel')
           .carousel-indicators
@@ -96,7 +96,7 @@
       .col-lg-1 
     p.mb-4 Esto significa que todo lo que está y rodea la Tierra, materialmente, se clasifica como producto químico, en virtud de su composición. 
 
-    p.mb-4 Al observar los objetos que se encuentran alrededor, se pueden identificar las sustancias químicas que los componen. En algunos casos no se conocen los nombres científicos de los productos químicos que constituyen cada uno de esos objetos, pero aun así se identifican grandes grupos, por ejemplo, plásticos, comestibles, medicamentos, varios tipos telas, madera, aire y muchos más.
+    p.mb-4 Al observar los objetos que se encuentran alrededor, se pueden identificar los productos químicos que los componen. En algunos casos no se conocen los nombres científicos de los productos químicos que constituyen cada uno de esos objetos, pero aun así se identifican grandes grupos, por ejemplo, plásticos, comestibles, medicamentos, varios tipos telas, madera, aire y muchos más.
 
     p.mb-5 Son diferentes unos de otros en su apariencia física, pero también son diferentes en su forma de presentación, en su utilidad e incluso en el daño que puedan ocasionar.
 
@@ -112,17 +112,17 @@
       .col-lg-2        
       .col-lg-2
         figure.mb-4
-          img(src='@/assets/curso/tema1/img08.svg', alt='Solido')   
+          img.zoom(src='@/assets/curso/tema1/img08.svg', alt='Solido')   
         h5.text-center Sólido       
       .col-lg-1
       .col-lg-2
         figure.mb-4
-          img(src='@/assets/curso/tema1/img09.svg', alt='Liquido')    
+          img.zoom(src='@/assets/curso/tema1/img09.svg', alt='Liquido')    
         h5.text-center Líquido 
       .col-lg-1
       .col-lg-2
         figure.mb-4
-          img(src='@/assets/curso/tema1/img10.svg', alt='Gaseoso')    
+          img.zoom(src='@/assets/curso/tema1/img10.svg', alt='Gaseoso')    
         h5.text-center Gaseoso
       .col-lg-2
 
@@ -232,7 +232,7 @@
         p Un producto químico, en forma de sustancia o en forma de mezcla (formada por dos o más sustancias), puede presentar un riesgo para la seguridad y salud de los trabajadores o para el medio ambiente debido a sus propiedades fisicoquímicas, químicas o toxicológica o a la forma en la que se utiliza o se encuentra presente en el lugar de trabajo (Insst, 2013).
       .col-md-3
         figure
-          img(src='@/assets/curso/tema1/img18.svg', alt='')
+          img.swing(src='@/assets/curso/tema1/img18.svg', alt='')
       .col-md-2
     br
     hr.mb-5

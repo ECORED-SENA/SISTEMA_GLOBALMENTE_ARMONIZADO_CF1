@@ -7,7 +7,7 @@
       .titulo-principal__numero
         .h3
           i.fas.fa-info
-      .h3 Introducción
+      .h3.text-in Introducción
     
     .row.mb-4
       .col-2
