@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="323" height="80" viewBox="0 0 323 80">
+  <g id="Grupo_58936" data-name="Grupo 58936" transform="translate(-679 -8393)">
+    <text id="Molaridad_X_" data-name="Molaridad (X)" transform="translate(679 8411)" fill="#12263f" font-size="20" font-family="SegoeUIBlack, Segoe UI"><tspan x="0" y="22">Molaridad (X)</tspan></text>
+    <text id="n_X_" data-name="n(X)" transform="translate(910 8393)" fill="#12263f" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="10.907" y="22">n(X)</tspan></text>
+    <text id="V_disolución" data-name="V disolución" transform="translate(879 8436)" fill="#12263f" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="7.496" y="22">V disolución</tspan></text>
+    <text id="_" data-name="=" transform="translate(831 8400)" fill="#e94b46" font-size="36" font-family="SegoeUIBlack, Segoe UI"><tspan x="0" y="39">=</tspan></text>
+    <line id="Línea_144" data-name="Línea 144" x2="132" transform="translate(869.5 8429.5)" fill="none" stroke="#28c8fa" stroke-width="3"/>
+  </g>
+</svg>
